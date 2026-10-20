@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "effective_date": "2026-10-20",
   "meta": {
     "name": "GS029 Google Review Comments",
@@ -13,7 +13,7 @@
     "guideline_note": "Every generated review keeps all mandatory fields for its selected UGC category.",
     "customer_note": "Customer chooses and submits the review using their own account and device with clear consent.",
     "monthly_rule": "Repeated Google Reviews from the same user within the same month count as one review only.",
-    "template_note": "350 individually written complete comments. No random opener/suffix combinations. Edit to match the actual experience."
+    "template_note": "350 individually written complete comments. Match actual experience; redemption and payment stories are filtered by customer choices."
   },
   "hashtags": [
     "#GrandSenhengBentong",
@@ -38,65 +38,158 @@
     }
   ],
   "categories": {
-    "trusted_service": {
-      "label": "Always Be With You: Trusted Service",
-      "short_label": "Servis Senheng",
+    "monthly_payment": {
+      "label": "Monthly Payment",
+      "short_label": "Bayaran bulanan",
       "requirements": [
-        "Pengalaman servis sebenar anda"
+        "Produk",
+        "Cara bayaran bulanan"
       ],
-      "note": "",
+      "note": "Pilih cara bayaran yang digunakan. Sebut diskaun atau cashback hanya jika sudah diterima. Semak ayat ikut pengalaman sendiri.",
       "templates": [
-        "Saya datang nak survey dulu. Staf dekat Bentong ni bagi ruang tengok barang dan jawab bila saya tanya, jadi tak rasa terkejar-kejar.",
-        "Senang nak bincang bajet dengan staf sini. Dia tunjuk beberapa pilihan yang saya mampu, lepas tu saya pilih sendiri.",
-        "Ada dua model yang saya tak tahu nak pilih. Lepas staf terangkan beza dia, baru senang saya buat keputusan.",
-        "Saya suka boleh tengok barang depan mata sebelum beli. Staf pun tolong tunjuk cara guna dekat display.",
-        "Mak saya banyak tanya pasal barang. Staf layan elok dan terangkan semula bila mak tak berapa faham.",
-        "Datang balik sebab terlupa cara guna satu fungsi. Staf masih bantu walaupun urusan beli dah selesai.",
-        "Masa bayar, saya minta semak jumlah sekali lagi. Staf tunjuk satu-satu, jadi saya tahu apa yang saya bayar.",
-        "Saya cari barang untuk rumah baru. Staf bantu ikut apa yang saya perlukan dulu, tak terus suruh ambil semua.",
-        "Ada soalan yang staf tak pasti, dia pergi semak dulu. Saya lebih selesa macam tu daripada dapat jawapan agak-agak.",
-        "Urusan dekat Grand Senheng Bentong okay. Dari mula tanya sampai selesai beli, senang nak berkomunikasi dengan staf.",
-        "Saya dah tengok model ni online tapi nak pastikan saiz sebenar. Dekat kedai, staf bantu semak ukuran sekali.",
-        "Barang yang saya cari tak ada depan mata. Staf tolong check stok dan bagitahu pilihan yang ada.",
-        "Saya kurang biasa dengan barang elektrik. Penerangan staf mudah ikut, tak terlalu banyak istilah yang saya tak faham.",
-        "Boleh tanya pasal warranty sebelum buat keputusan. Staf terangkan apa yang perlu saya simpan untuk rujukan nanti.",
-        "Lepas beli baru teringat satu soalan. Saya hubungi outlet dan staf bantu jawab, tak perlu datang semula semata-mata nak tanya.",
-        "Saya datang dengan model pilihan sendiri. Staf dengar dulu apa yang saya nak, kemudian baru beri pandangan.",
-        "Harga barang dan bayaran tambahan diterangkan sebelum saya setuju. Jadi masa bayar tu tak keliru.",
-        "Staf tolong semak barang yang saya pilih sebelum urusan selesai. Benda kecil macam ni saya hargai.",
-        "Saya perlukan barang yang senang orang tua guna. Staf tunjuk butang dan fungsi asas, bukan cerita specs je.",
-        "Selesa survey dekat sini. Saya ambil masa bandingkan beberapa barang dan staf tak mendesak untuk cepat bayar.",
-        "Urusan ambil barang saya berjalan elok. Staf semak maklumat pembelian dulu sebelum serahkan barang.",
-        "Saya tanya pasal penghantaran sebelum beli. Staf semak dengan pihak yang uruskan dan jelaskan jadual yang tersedia.",
-        "Ada perkara pasal pemasangan yang saya tak tahu. Mujur tanya dekat kedai dulu, staf bantu jelaskan apa yang perlu disediakan.",
-        "Saya pernah beli dekat Senheng sebelum ni. Kali ni datang cawangan Bentong, layanan staf pun baik.",
-        "Staf tanya ruang dekat rumah sebelum cadangkan saiz. Senang sikit saya nak elak beli barang yang tak muat.",
-        "Saya suka bila staf tunjuk beza fungsi guna barang sebenar. Lebih mudah faham daripada baca keterangan dekat tag.",
-        "Tak jadi ambil model yang mula-mula saya tengok. Staf masih bantu cari pilihan lain dalam bajet saya.",
-        "Saya datang untuk urusan selepas jualan. Staf dengar masalah saya dulu dan semak apa yang boleh dibuat.",
-        "Banyak benda saya tanya sebelum beli, termasuk penjagaan barang. Staf jawab dengan sabar dan tak buat saya rasa segan.",
-        "Mudah berurusan dengan staf Bentong. Kalau ada maklumat yang perlu disemak, dia bagitahu terus.",
-        "Saya minta penerangan dalam bahasa yang mudah sebab tak biasa dengan fungsi baru. Staf tunjuk perlahan-lahan sampai saya faham.",
-        "Datang bersama keluarga nak pilih barang rumah. Staf bantu bandingkan pilihan yang masing-masing berkenan.",
-        "Staf bantu semak promo untuk barang yang saya pilih. Saya tahu dulu syaratnya sebelum teruskan pembelian.",
-        "Saya ada ruang rumah yang agak terhad. Nasihat pasal saiz dan tempat letak barang memang membantu masa memilih.",
-        "Layanan dekat kaunter baik. Ada maklumat dalam resit yang saya nak pastikan, staf semak semula dengan saya.",
-        "Saya singgah nak tengok pilihan yang ada. Walaupun belum terus beli, staf tetap jawab soalan saya elok.",
-        "Barang elektrik saya guna lama, jadi memang banyak pertimbangan sebelum beli. Staf bagi masa untuk saya fikir.",
-        "Saya minta staf ringkaskan beza beberapa model. Senang faham bila dia kaitkan dengan cara saya guna dekat rumah.",
-        "Sebelum buat bayaran, staf semak semula model yang saya pilih. Saya pun boleh pastikan tak tersalah barang.",
-        "Saya datang nak tanya tentang barang yang dah dibeli. Staf bantu cari maklumatnya dan terangkan pada saya.",
-        "Penerangan staf tentang penjagaan barang berguna. Ada perkara yang saya sendiri tak terfikir nak tanya masa mula datang.",
-        "Saya pilih outlet ni sebab boleh berurusan dengan orang terus. Bila ada soalan, senang nak tanya dan tengok barang sekali.",
-        "Staf tak terus cadangkan yang paling mahal. Dia tanya kegunaan saya dulu, baru tunjuk model yang boleh dipertimbangkan.",
-        "Ada perubahan pada pilihan barang saya. Staf semak semula urusan sebelum teruskan, jadi semuanya jelas.",
-        "Saya nak beli untuk keluarga, bukan untuk diri sendiri. Staf bantu fikir fungsi yang mereka akan guna setiap hari.",
-        "Masa saya tak faham satu penerangan, staf cuba jelaskan dengan contoh. Itu yang buat saya lebih yakin nak pilih.",
-        "Urusan saya tak habis pada hari pertama datang. Bila sambung semula, staf bantu semak apa yang masih diperlukan.",
-        "Saya lebih suka tanya terus daripada baca specs panjang-panjang. Dekat sini boleh bincang dengan staf tentang keperluan saya.",
-        "Staf terangkan cara hubungi outlet kalau ada pertanyaan selepas beli. Senang saya nak rujuk nanti.",
-        "Pengalaman saya di Grand Senheng Bentong baik. Saya dapat tengok barang, tanya soalan dan pilih tanpa rasa dipaksa."
+        "Nak beli {product} cash memang berat sikit untuk saya. Nasib Senheng ada pilihan bayaran bulanan, staf explain {paymentMethod} sampai saya faham. Saya pilih pelan yang sesuai dengan bajet, proses pun mudah nak ikut.",
+        "Saya datang cari {product}, tapi nak bahagi bayaran ikut bulan. Staf terangkan pilihan {paymentMethod} dan jumlah yang perlu dibayar. Lepas kira ikut kemampuan sendiri, saya decide teruskan.",
+        "Tak perlu tangguh beli {product} sebab staf bantu tengok pilihan ansuran. Saya guna {paymentMethod} selepas dia explain bayaran dan syarat dengan jelas. Komitmen bulanan tu masuk dengan bajet saya.",
+        "Mula-mula risau proses beli {product} secara bulanan akan susah. Staf guide guna {paymentMethod} satu-satu, rupanya senang nak ikut. Saya semak jumlah dulu sebelum setuju.",
+        "Saya perlukan {product}, cuma tak selesa keluarkan semua duit sekali gus. Staf bantu terangkan {paymentMethod} dan saya pilih bayar bulanan. Rasa lebih mudah susun belanja bila dah tahu jumlah yang kena sediakan.",
+        "Datang survey {product}, sekali baru tahu ada banyak cara bayar bulanan dekat Senheng. Selepas staf explain, saya pilih {paymentMethod} yang sesuai dengan keadaan saya. Senang nak decide bila penerangan jelas.",
+        "Untuk {product} kali ni saya guna {paymentMethod}. Staf tunjuk komitmen dan syarat sebelum saya teruskan, jadi tak blur tentang bayaran bulanan. Proses dekat kedai pun berjalan elok.",
+        "Saya dah sediakan bajet bulanan untuk {product}, cuma tak pasti pilihan mana sesuai. Staf terangkan {paymentMethod} dan bantu semak maklumat yang diperlukan. Lepas jelas semua, saya pilih cara tu.",
+        "Beli {product} ni saya tak nak ganggu semua simpanan sekali. Jadi tanya staf pasal bayaran bulanan dan akhirnya guna {paymentMethod}. Jumlah dan cara bayar diterangkan dulu, senang saya plan.",
+        "Saya banyak tanya sebelum ambil {product} dengan {paymentMethod}. Staf jawab tentang bayaran dan syarat sampai saya faham. Bila kira masih mampu ikut bajet, baru saya teruskan pembelian.",
+        "Bagus juga ada pilihan bulanan masa nak beli {product}. Saya pilih {paymentMethod} lepas staf explain cara urus dan apa yang perlu dibayar. Prosesnya mudah bagi saya sebab ada orang guide.",
+        "{product} memang dah diperlukan, tapi nak bayar cash semua agak ketat. Staf terangkan pilihan {paymentMethod} dan bantu saya faham komitmen bulanan. Lepas semak bajet, dapat juga beli dengan cara yang sesuai.",
+        "Saya tanya dulu berapa komitmen kalau beli {product} guna {paymentMethod}. Staf explain dengan jelas, jadi boleh fikir ikut kemampuan sendiri. Bila dah setuju, proses pembelian senang nak ikut.",
+        "Tak sangka ada banyak pilihan bayaran dekat Senheng. Untuk {product} ni, saya guna {paymentMethod} selepas staf bantu terangkan. Bayar ikut bulan lebih kena dengan cara saya susun belanja.",
+        "Masa pilih {product}, staf tanya nak bayar macam mana dan explain pilihan bulanan. Saya ambil {paymentMethod} sebab sesuai dengan bajet yang ada. Senang bila jumlah dan syarat dah jelas sebelum buat keputusan.",
+        "Saya bukan biasa beli barang secara ansuran, jadi minta staf guide. Ambil {product} guna {paymentMethod}, dia explain dari awal sampai faham bayaran bulanan. Rasa yakin sebab boleh semak dulu sebelum setuju.",
+        "Dapat juga beli {product} tanpa keluarkan harga penuh sekali gus. Saya guna {paymentMethod} selepas staf terangkan komitmen yang perlu dijaga. Pilihan ni membantu saya urus bajet, proses pun tak mengelirukan.",
+        "Saya pilih bayaran bulanan untuk {product} melalui {paymentMethod}. Staf bantu semak pilihan dan explain jumlah keseluruhan sebelum saya teruskan. Bagi saya senang bila semua diterangkan awal.",
+        "Ingat kena kumpul cash penuh dulu baru boleh beli {product}. Rupanya ada pilihan {paymentMethod}, staf explain cara dan syarat dengan baik. Lepas kira kemampuan bulanan, saya decide ambil.",
+        "Beli {product} kali ni guna {paymentMethod}, lebih sesuai dengan bajet saya sekarang. Staf guide proses dan terangkan bayaran yang perlu dibuat. Lega ada pilihan yang boleh dipertimbangkan selain bayar semua sekali.",
+        "Limit {paymentMethod} saya masih ada, tapi tak tahu boleh guna dekat Senheng. Staf explain dan bantu masa beli {product}. Senang dapat guna kemudahan yang memang dah ada untuk bayaran ikut bulan.",
+        "Saya memang nak gunakan limit {paymentMethod} untuk {product}. Staf bantu semak pilihan bayaran dalam app dan explain sebelum saya sahkan. Proses dekat kaunter mudah, dapat juga beli ikut bajet bulanan.",
+        "Baru tahu {paymentMethod} boleh guna untuk beli {product} dekat kedai ni. Staf guide cara semak limit dan bayaran dalam app. Bila dah jelas komitmen bulanan, saya teruskan.",
+        "Ada limit {paymentMethod} yang sesuai untuk pembelian {product}, jadi saya tanya staf cara guna. Dia tunjuk langkah dan suruh semak bayaran sebelum confirm. Senang nak ikut, tak perlu keluarkan semua cash serentak.",
+        "Saya check {paymentMethod} dulu sebelum datang sebab nak beli {product} secara bulanan. Dekat kedai staf bantu semak pilihan yang tersedia dan guide pembayaran. Suka sebab penerangan jelas dan saya tahu apa yang dipersetujui.",
+        "Ambil {product} guna {paymentMethod} kali ni. Staf bantu tunjuk bayaran dalam app dan explain apa yang perlu disemak sebelum confirm. Proses senang, pembahagian bayaran tu sesuai dengan bajet saya.",
+        "Saya belum pernah guna {paymentMethod} dekat kedai, jadi minta staf ajar masa beli {product}. Dia guide satu-satu sampai selesai. Senang bila boleh tengok komitmen dulu sebelum setuju.",
+        "Nak bahagi bayaran {product}, saya pilih {paymentMethod}. Staf explain pilihan yang muncul dalam app dan bantu urus dekat kaunter. Lepas semak jumlah, saya rasa pelan tu sesuai untuk saya.",
+        "Staf cadangkan saya tengok pilihan {paymentMethod} masa nak beli {product}. Dia explain cara pembayaran dan saya semak komitmen dalam app dulu. Bila dah faham, proses beli jadi mudah.",
+        "Saya guna {paymentMethod} untuk {product} sebab nak jaga aliran belanja bulanan. Staf tunjuk langkah dan terangkan bayaran sebelum saya sahkan. Tak rasa kelam-kabut walaupun baru cuba cara ni.",
+        "Saya ada {paymentMethod} dan tanya staf boleh guna untuk {product} ke. Dia bantu tengok pilihan dalam app serta explain bayaran yang tertera. Lepas semak, saya teruskan pembelian.",
+        "Beli {product} kali ni cuba {paymentMethod}. Staf guide melalui app dan pastikan saya semak komitmen sebelum confirm. Senang prosesnya, sesuai dengan cara saya nak susun belanja.",
+        "Saya pilih {paymentMethod} untuk bahagi bayaran {product}. Staf terangkan langkah dan apa yang perlu disemak dalam app. Bila semua dah jelas, saya setuju teruskan sebab bayaran tu dalam kemampuan saya.",
+        "Masa nak bayar {product}, saya tanya tentang {paymentMethod}. Staf bantu explain pilihan yang ada untuk akaun saya, kemudian saya semak jumlah sebelum sahkan. Proses mudah nak ikut.",
+        "Tak ada kad kredit, jadi saya tanya cara beli {product} secara ansuran. Staf terangkan {paymentMethod} dan bantu dengan urusan permohonan. Lepas diluluskan dan semak komitmen, saya teruskan pembelian.",
+        "Saya pilih {paymentMethod} untuk beli {product} selepas staf tunjuk pilihan ansuran. Staf bantu dengan dokumen dan terangkan jumlah bayaran sekali. Senang saya nak faham komitmen bulanan sebelum setuju.",
+        "Nak beli {product} cash agak berat untuk saya. Staf explain permohonan {paymentMethod}, bantu semak dokumen dan terangkan ansuran. Bila dah lulus dan jumlahnya sesuai dengan bajet, dapat juga ambil barang.",
+        "Saya tanya staf tentang {paymentMethod} sebab perlukan {product} tapi nak bayar bulanan. Dia explain proses permohonan dan dokumen yang diperlukan. Lepas kelulusan, saya semak pelan dulu sebelum teruskan.",
+        "Urusan {paymentMethod} untuk {product} ni staf bantu dari penerangan awal. Saya tahu jumlah dan tempoh sebelum setuju selepas permohonan diluluskan. Rasa senang sebab tak perlu teka sendiri komitmen ansuran.",
+        "Saya tak guna kad kredit, jadi staf terangkan {paymentMethod} untuk pembelian {product}. Dia bantu urusan permohonan dan jelaskan bayaran bulanan. Lepas lulus serta semak bajet, saya pilih teruskan.",
+        "Nak ambil {product} secara ansuran, staf cadangkan tengok pilihan {paymentMethod}. Dokumen dan proses diterangkan satu-satu. Bila permohonan dah diluluskan, saya semak jumlah bayaran sebelum setuju.",
+        "Saya guna {paymentMethod} untuk {product} selepas permohonan diluluskan. Staf banyak membantu jelaskan syarat dan komitmen bulanan. Jumlah yang dipersetujui sesuai dengan kemampuan saya.",
+        "Beli {product} ni saya pilih ansuran {paymentMethod}. Staf bantu terangkan apa perlu untuk permohonan dan saya semak pelan selepas lulus. Senang nak buat keputusan bila bayaran diterangkan dengan jelas.",
+        "Mula-mula tak tahu {paymentMethod} ada dekat Senheng. Staf explain masa saya tanya ansuran untuk {product}, kemudian bantu dengan permohonan. Bila dah lulus, dapat pilih berdasarkan bajet yang saya mampu.",
+        "Saya ambil {product} melalui {paymentMethod}. Staf explain bayaran peranti bersama pelan talian dan tempoh kontrak, jadi saya boleh kira komitmen penuh. Bila dah faham semuanya, baru setuju ambil bundle ni.",
+        "Nak tukar telefon, saya tengok pilihan {paymentMethod} untuk {product}. Staf terangkan kos pelan talian sekali dengan bayaran peranti dan syarat kontrak. Sesuai dengan penggunaan serta bajet saya, jadi saya teruskan.",
+        "Saya tak nak tengok bayaran telefon saja, jadi minta staf explain keseluruhan {paymentMethod}. Untuk {product}, dia terangkan pelan talian, komitmen dan kontrak sebelum saya setuju. Senang bila boleh semak semua sekali.",
+        "Saya beli {product} guna {paymentMethod} selepas staf semak kad dan pelan yang layak. Dia explain tempoh serta jumlah ansuran sebelum bayaran dibuat. Dapat bahagi bayaran pada kadar 0% untuk pelan yang saya pilih.",
+        "Ada kad yang layak, jadi saya tanya {paymentMethod} untuk {product}. Staf bantu semak pilihan tempoh dan komitmen dulu. Saya ambil pelan 0% yang sesuai dengan bajet, proses dekat kaunter pun mudah.",
+        "Untuk {product} ni saya pilih {paymentMethod}. Staf sahkan kelayakan kad dan terangkan jumlah bayaran bulanan bagi pelan 0% sebelum saya setuju. Senang susun belanja sebab dah tahu komitmen yang diambil."
       ],
+      "template_conditions": {
+        "20": {
+          "paymentMethod": "spay"
+        },
+        "21": {
+          "paymentMethod": "spay"
+        },
+        "22": {
+          "paymentMethod": "spay"
+        },
+        "23": {
+          "paymentMethod": "spay"
+        },
+        "24": {
+          "paymentMethod": "spay"
+        },
+        "25": {
+          "paymentMethod": "atome"
+        },
+        "26": {
+          "paymentMethod": "atome"
+        },
+        "27": {
+          "paymentMethod": "atome"
+        },
+        "28": {
+          "paymentMethod": "atome"
+        },
+        "29": {
+          "paymentMethod": "atome"
+        },
+        "30": {
+          "paymentMethod": "grab"
+        },
+        "31": {
+          "paymentMethod": "grab"
+        },
+        "32": {
+          "paymentMethod": "grab"
+        },
+        "33": {
+          "paymentMethod": "grab"
+        },
+        "34": {
+          "paymentMethod": "aeon"
+        },
+        "35": {
+          "paymentMethod": "aeon"
+        },
+        "36": {
+          "paymentMethod": "aeon"
+        },
+        "37": {
+          "paymentMethod": "aeon"
+        },
+        "38": {
+          "paymentMethod": "aeon"
+        },
+        "39": {
+          "paymentMethod": "chailease"
+        },
+        "40": {
+          "paymentMethod": "chailease"
+        },
+        "41": {
+          "paymentMethod": "chailease"
+        },
+        "42": {
+          "paymentMethod": "chailease"
+        },
+        "43": {
+          "paymentMethod": "chailease"
+        },
+        "44": {
+          "paymentMethod": "maxis"
+        },
+        "45": {
+          "paymentMethod": "maxis"
+        },
+        "46": {
+          "paymentMethod": "maxis"
+        },
+        "47": {
+          "paymentMethod": "ipp"
+        },
+        "48": {
+          "paymentMethod": "ipp"
+        },
+        "49": {
+          "paymentMethod": "ipp"
+        }
+      },
       "base_comment_count": 50,
       "possible_combinations": 50
     },
@@ -105,61 +198,61 @@
       "short_label": "Dapat S-Coin",
       "requirements": [
         "Produk",
-        "Cashback %",
-        "Nilai S-Coin dalam RM"
+        "Harga produk",
+        "Cashback %"
       ],
-      "note": "",
+      "note": "Masukkan butiran pembelian sebenar. Jika memang kumpul untuk barang tertentu, boleh isi sasaran redeem.",
       "templates": [
-        "Beli {product} dekat Bentong, dapat S-Coin cashback {cashbackPercent}. Nilainya {scoinValue}, boleh simpan untuk guna kemudian.",
-        "Untuk pembelian {product} ni, cashback S-Coin saya {cashbackPercent}, bersamaan {scoinValue}. Staf tolong kira sebelum saya bayar.",
-        "Saya ingat S-Coin tu susah nak faham. Bila beli {product}, staf tunjuk cashback {cashbackPercent} tu jadi {scoinValue}.",
-        "Ada S-Coin bernilai {scoinValue} daripada pembelian {product} saya. Kadar cashback masa beli ialah {cashbackPercent}.",
-        "Harga {product} saya semak sekali dengan S-Coin yang dapat. Cashback {cashbackPercent}, nilai S-Coin {scoinValue}.",
-        "Baru beli {product}. Selain barang tu, saya dapat cashback {cashbackPercent} dalam S-Coin bernilai {scoinValue}.",
-        "Staf Bentong jelaskan cashback untuk {product} ni dalam bentuk S-Coin. Saya dapat {cashbackPercent}, nilainya {scoinValue}.",
-        "Saya pilih {product} dan ada cashback S-Coin {cashbackPercent}. Bila tengok nilai {scoinValue}, senang saya nak rancang guna nanti.",
-        "Pembelian {product} kali ni dapat {scoinValue} dalam S-Coin. Cashback dia {cashbackPercent}, staf dah terangkan cara guna.",
-        "Sebelum ambil {product}, saya tanya dulu pasal S-Coin. Untuk pembelian saya, cashback {cashbackPercent} dengan nilai {scoinValue}.",
-        "Saya dah lama nak beli {product}. Kali ni dapat sekali S-Coin cashback {cashbackPercent}, bernilai {scoinValue}.",
-        "Tak biasa dengan S-Coin, jadi saya minta staf jelaskan. Beli {product} dapat cashback {cashbackPercent}, jumlah nilainya {scoinValue}.",
-        "{product} dah beli, S-Coin pun ada untuk kegunaan seterusnya. Cashback {cashbackPercent} tu bernilai {scoinValue}.",
-        "Saya semak kiraan S-Coin dengan staf untuk {product}. Daripada cashback {cashbackPercent}, saya dapat nilai {scoinValue}.",
-        "Cashback S-Coin {cashbackPercent} untuk {product} ni antara perkara yang saya pertimbangkan masa beli. Nilai yang dapat {scoinValue}.",
-        "Masa beli {product}, staf tunjuk beza harga barang dengan cashback. S-Coin saya {cashbackPercent}, bernilai {scoinValue}.",
-        "Seronok juga ada baki S-Coin untuk guna lain kali. Pembelian {product} ni dapat cashback {cashbackPercent}, iaitu {scoinValue}.",
-        "Saya datang untuk {product} dan sempat tanya pasal tebusan juga. Cashback S-Coin yang dapat {cashbackPercent}, nilai {scoinValue}.",
-        "Urusan beli {product} selesai dekat sini. Staf bagitahu cashback S-Coin {cashbackPercent} saya bernilai {scoinValue}.",
-        "S-Coin daripada {product} ni saya nak simpan dulu. Saya dapat cashback {cashbackPercent} dengan nilai {scoinValue}.",
-        "Yang saya suka, staf jelaskan kiraan sebelum saya buat keputusan. Untuk {product}, cashback {cashbackPercent} jadi S-Coin bernilai {scoinValue}.",
-        "Saya beli {product} untuk rumah. Dapat S-Coin cashback {cashbackPercent}, nilai {scoinValue}, jadi ada yang boleh digunakan kemudian.",
-        "Mula-mula saya tengok harga {product} je. Lepas tanya, baru faham ada cashback S-Coin {cashbackPercent} bernilai {scoinValue}.",
-        "Staf bantu semak S-Coin untuk pembelian saya. {product} ni dapat cashback {cashbackPercent}, nilainya {scoinValue}.",
-        "Saya tak terus redeem apa-apa lagi. S-Coin bernilai {scoinValue} daripada cashback {cashbackPercent} pembelian {product} saya simpan dulu.",
-        "Beli barang yang memang saya perlukan, {product}. Kali ni ada cashback S-Coin {cashbackPercent} dengan nilai {scoinValue}.",
-        "Saya minta staf tunjuk jumlah S-Coin dalam nilai RM supaya mudah faham. Cashback {cashbackPercent} untuk {product} ialah {scoinValue}.",
-        "Pembelian {product} saya ada S-Coin cashback {cashbackPercent}. Jumlah {scoinValue} tu dah dijelaskan, jadi saya tak perlu agak sendiri.",
-        "Saya dah semak promo sebelum ambil {product}. Yang dapat untuk pembelian ni ialah cashback {cashbackPercent}, S-Coin bernilai {scoinValue}.",
-        "Selesai pilih {product}, staf terangkan pula tentang S-Coin. Cashback saya {cashbackPercent} dan nilainya {scoinValue}.",
-        "Ada manfaat juga kumpul S-Coin bila beli barang rumah. Untuk {product} kali ni, cashback {cashbackPercent} bernilai {scoinValue}.",
-        "{product} ni pembelian saya dekat Grand Senheng Bentong. S-Coin cashback {cashbackPercent}, nilai yang saya dapat {scoinValue}.",
-        "Saya nak tahu jumlah sebenar S-Coin sebelum bayar {product}. Staf kira cashback {cashbackPercent} dan terangkan nilai {scoinValue} pada saya.",
-        "Cashback bukan duit tunai, staf dah jelaskan masa saya beli {product}. Saya dapat S-Coin {cashbackPercent} bernilai {scoinValue}.",
-        "Saya ambil {product} selepas semak harga dan promo. Ada cashback S-Coin {cashbackPercent}, dengan nilai {scoinValue} untuk digunakan nanti.",
-        "Tak berapa faham peratus cashback pada awalnya. Staf jelaskan {cashbackPercent} untuk {product} ni memberi S-Coin bernilai {scoinValue}.",
-        "Pembelian kali ni ada S-Coin sekali. Saya beli {product}, cashback {cashbackPercent} dan nilai S-Coinnya {scoinValue}.",
-        "Saya tanya apa boleh dibuat dengan S-Coin daripada {product}. Staf terangkan pilihan tebusan; cashback saya {cashbackPercent}, nilai {scoinValue}.",
-        "Untuk {product} yang saya ambil, ada cashback {cashbackPercent}. S-Coin bernilai {scoinValue} tu nanti saya guna bila perlu.",
-        "Staf terangkan juga tentang potongan dalam kiraan S-Coin. Selepas beli {product} dengan cashback {cashbackPercent}, nilainya {scoinValue}.",
-        "Saya dapat semak harga {product} dan nilai S-Coin dalam urusan yang sama. Cashback {cashbackPercent} bersamaan {scoinValue} untuk saya.",
-        "Bila nilai S-Coin ditunjukkan, baru nampak berapa yang boleh digunakan nanti. Untuk {product}, cashback {cashbackPercent} bernilai {scoinValue}.",
-        "Saya beli {product} di Bentong dan minta penerangan S-Coin sekali. Dapat cashback {cashbackPercent}, nilainya {scoinValue}.",
-        "S-Coin {scoinValue} daripada pembelian {product} ni saya dah ambil kira. Cashback yang diberikan ialah {cashbackPercent}.",
-        "Lepas pilih {product}, saya semak syarat cashback dengan staf. Untuk pembelian saya, S-Coin {cashbackPercent} bernilai {scoinValue}.",
-        "Saya suka staf jelaskan dalam angka, senang nak faham. {product} yang saya beli dapat cashback {cashbackPercent}, nilai S-Coin {scoinValue}.",
-        "Ada S-Coin untuk pembelian akan datang hasil beli {product}. Cashback kali ni {cashbackPercent}, jumlah nilainya {scoinValue}.",
-        "Saya beli {product} dan baru lebih faham cara S-Coin berfungsi. Cashback {cashbackPercent} saya bernilai {scoinValue}.",
-        "Tak perlu saya kira sendiri S-Coin untuk {product} ni. Staf tunjuk cashback {cashbackPercent} dan nilai {scoinValue} yang saya dapat.",
-        "Yang saya bawa balik ialah {product}, dan pembelian tu dapat S-Coin cashback {cashbackPercent}. Nilainya {scoinValue}, saya simpan untuk kemudian."
+        "Beli {product} harga {purchasePrice}, dapat cashback {cashbackPercent} dalam S-Coin, nilainya {scoinValue}. Mula-mula tak berapa faham nak guna macam mana. Staf explain boleh redeem barang lain nanti, terus rasa seronok nak kumpul.",
+        "Saya memang tengah kumpul S-Coin untuk {redeemTarget}. Kali ni ambil {product} pada harga {purchasePrice} dan dapat {cashbackPercent}, bersamaan {scoinValue}. Staf tolong terangkan cara redeem bila nak guna nanti.",
+        "Ingat beli {product} bayar {purchasePrice} tu habis dekat situ je. Rupanya dapat {scoinValue} S-Coin daripada cashback {cashbackPercent}. Bila staf cerita boleh guna untuk barang lain, dah mula fikir nak redeem apa lepas ni.",
+        "Lepas staf explain S-Coin, baru saya decide ambil {product} ni. Harga {purchasePrice}, cashback {cashbackPercent} dapat {scoinValue}. Boleh simpan dulu untuk redeem {redeemTarget} kemudian.",
+        "Tak biasa dengan S-Coin sebelum ni. Masa beli {product} {purchasePrice}, staf tunjuk cashback {cashbackPercent} tu jadi {scoinValue} dan boleh guna untuk pembelian lain. Okey, sekarang dah faham kenapa orang suka kumpul.",
+        "Target saya nak redeem {redeemTarget}, jadi memang tengok S-Coin sekali masa pilih barang. {product} yang dibeli harga {purchasePrice} ni dapat {scoinValue} dengan cashback {cashbackPercent}. Staf explain cara guna nanti pun senang ikut.",
+        "Datang cari {product}, sekali balik ada S-Coin untuk disimpan. Bayar {purchasePrice}, cashback {cashbackPercent} dapat {scoinValue}. Staf siap bagitahu tak semestinya redeem barang yang sama, nanti boleh pilih barang lain yang sesuai.",
+        "Saya tanya staf cashback {cashbackPercent} ni dapat cash ke macam mana. Lepas diterangkan, faham dah ia S-Coin untuk redeem barang kemudian. Pembelian {product} {purchasePrice} saya dapat {scoinValue}, bolehlah mula kumpul.",
+        "{product} ni harga {purchasePrice}. Yang buat saya tertarik, ada cashback S-Coin {cashbackPercent}, jumlahnya {scoinValue}. Staf terangkan boleh simpan dan redeem barang lain kemudian, jadi saya pun teruskan beli.",
+        "Dah ada rancangan nak ambil {redeemTarget} nanti. Jadi S-Coin {scoinValue} daripada pembelian {product} {purchasePrice} ni memang saya simpan dulu. Cashback {cashbackPercent} tu staf explain satu-satu sebelum saya bayar.",
+        "Baru tahu S-Coin boleh digunakan untuk barang lain lepas staf terangkan. Saya beli {product} {purchasePrice}, dapat cashback {cashbackPercent} bernilai {scoinValue}. Lepas ni kalau nak redeem, dah tahu nak mula dekat mana.",
+        "Saya suka bila staf tunjuk terus jumlah yang dapat. Untuk {product} harga {purchasePrice}, cashback {cashbackPercent} jadi {scoinValue} S-Coin. Senang nak bayangkan berapa boleh guna untuk redeem barang lain nanti.",
+        "Masa survey {product}, saya tak tengok S-Coin sangat pun. Lepas staf explain boleh kumpul untuk redeem kemudian, baru saya ambil kira. Jadi beli yang harga {purchasePrice} ni, dapat {cashbackPercent} atau {scoinValue}.",
+        "Ada barang yang saya nak beli sekarang, ada yang boleh tunggu dulu. {product} {purchasePrice} ni saya ambil dan dapat {scoinValue} S-Coin daripada cashback {cashbackPercent}. Staf kata boleh simpan untuk redeem kemudian, ngam dengan plan nak ambil {redeemTarget}.",
+        "Saya minta staf ulang sikit cara guna S-Coin sebab first time. Beli {product} harga {purchasePrice}, dapat {cashbackPercent} dengan nilai {scoinValue}. Bila dah jelas boleh redeem barang lain nanti, rasa lebih yakin nak beli.",
+        "Untuk pembelian {product} {purchasePrice} ni, saya dapat S-Coin {scoinValue}, cashback {cashbackPercent}. Staf cadangkan simpan dulu kalau belum ada barang nak redeem. Saya pun tak rushing, kumpul untuk {redeemTarget} dulu.",
+        "Tengah pilih barang, staf explain model {product} ni dapat cashback {cashbackPercent}. Harga {purchasePrice} dan S-Coin yang dapat {scoinValue}. Bila tahu boleh guna beli barang lain kemudian, saya decide ambil.",
+        "Beli barang yang memang perlu, dapat pula kumpul S-Coin sekali. {product} saya harga {purchasePrice}, cashback {cashbackPercent} bernilai {scoinValue}. Staf dah tunjuk macam mana nak redeem bila saya nak gunakan nanti.",
+        "Sebelum bayar {purchasePrice} untuk {product}, saya tanya S-Coin tu boleh buat apa. Staf explain boleh redeem barang lain, bukan simpan dalam akaun saja. Cashback {cashbackPercent} saya dapat {scoinValue}, nanti nak guna untuk {redeemTarget}.",
+        "Saya datang dengan bajet untuk {product}, tak sangka boleh plan pembelian seterusnya sekali. Harga {purchasePrice}, dapat {scoinValue} S-Coin melalui cashback {cashbackPercent}. Lepas staf explain, saya nak kumpul untuk redeem barang lain dulu.",
+        "Cashback {cashbackPercent} tu saya kurang faham kalau tengok nombor saja. Staf kira untuk {product} harga {purchasePrice}, dapat S-Coin {scoinValue}. Siap terangkan cara redeem barang lain, baru nampak kegunaannya.",
+        "Hari ni ambil {product} {purchasePrice}. S-Coin {scoinValue} daripada cashback {cashbackPercent} tu saya belum nak guna lagi sebab ada target {redeemTarget}. Staf bantu explain cara simpan dan guna bila perlu nanti.",
+        "Rupanya senang je nak faham S-Coin bila staf tunjuk contoh redeem. Saya terus beli {product} harga {purchasePrice} yang dapat cashback {cashbackPercent}, jumlah {scoinValue}. Ada juga manfaat untuk pembelian selepas ni.",
+        "Dah lama nak {product}, kali ni beli pada harga {purchasePrice}. Dapat S-Coin {scoinValue} dengan cashback {cashbackPercent}. Staf beritahu boleh redeem barang lain kemudian, jadi saya nak simpan untuk benda yang betul-betul diperlukan.",
+        "Saya banding pilihan barang sambil tanya pasal S-Coin. Akhirnya ambil {product} {purchasePrice}, dapat cashback {cashbackPercent} bernilai {scoinValue}. Penerangan staf tentang redeem nanti membantu saya buat keputusan.",
+        "Bukan selalu beli barang elektrik, jadi S-Coin ni baru bagi saya. Staf explain masa saya ambil {product} harga {purchasePrice}. Cashback {cashbackPercent} dapat {scoinValue}, boleh guna untuk redeem barang lain lepas ni.",
+        "{product} dah dapat, S-Coin untuk pembelian akan datang pun ada. Harga barang {purchasePrice}, cashback {cashbackPercent} jadi {scoinValue}. Staf explain boleh pilih barang lain bila redeem nanti, itu yang saya suka.",
+        "Saya memang cari barang yang sesuai sambil kumpul S-Coin. Beli {product} harga {purchasePrice}, kali ni dapat {scoinValue} daripada cashback {cashbackPercent}. Nak simpan untuk {redeemTarget}; cara redeem staf dah terangkan.",
+        "Sempat tanya banyak pasal S-Coin sebelum decide beli. Staf explain elok, jadi saya ambil {product} {purchasePrice} yang dapat cashback {cashbackPercent}. Nilai {scoinValue} tu boleh saya guna untuk barang lain kemudian.",
+        "Beli {product} ni tak ikut cashback semata-mata, memang barang yang saya perlu. Tapi pada harga {purchasePrice}, dapat {cashbackPercent} S-Coin bernilai {scoinValue} tu seronok juga. Staf dah explain cara redeem bila nak beli barang lain.",
+        "Saya ingat S-Coin kena guna terus. Staf jelaskan boleh simpan untuk redeem kemudian, jadi tak perlu pilih barang tambahan hari tu. {product} {purchasePrice} yang saya beli dapat {scoinValue} dengan cashback {cashbackPercent}.",
+        "Ada target nak redeem {redeemTarget}, jadi saya tanya staf pembelian ni dapat berapa S-Coin. {product} harga {purchasePrice} dapat {cashbackPercent}, nilainya {scoinValue}. Senang nak plan bila staf terangkan jumlah dan cara guna sekali.",
+        "Lepas tengok pilihan {product}, saya pilih yang harga {purchasePrice}. Staf explain cashback {cashbackPercent} akan beri S-Coin {scoinValue} untuk redeem nanti. Sekurang-kurangnya dah tahu manfaat tu nak guna untuk apa.",
+        "S-Coin {scoinValue} ni saya dapat daripada beli {product} harga {purchasePrice}, cashback {cashbackPercent}. Staf tunjuk macam mana boleh guna masa redeem barang lain. Tak adalah saya biarkan saja sebab tak tahu kegunaannya.",
+        "Saya suka kumpul dulu baru redeem benda yang saya betul-betul nak. Kali ni beli {product} {purchasePrice}, tambah S-Coin {scoinValue} daripada cashback {cashbackPercent}. Staf explain penggunaan nanti dan saya dah ada target {redeemTarget}.",
+        "Mula-mula tengok harga {product} saja, {purchasePrice}. Bila staf explain ada cashback {cashbackPercent} dengan nilai S-Coin {scoinValue}, saya jadi berminat. Boleh redeem barang lain nanti, jadi saya terus beli.",
+        "Senang faham bila staf explain guna contoh barang yang boleh redeem kemudian. Saya beli {product} pada harga {purchasePrice} dan dapat {scoinValue} S-Coin, cashback {cashbackPercent}. Dah ada idea nak gunakan untuk {redeemTarget}.",
+        "Untuk {product} harga {purchasePrice}, jumlah S-Coin saya dapat {scoinValue} daripada cashback {cashbackPercent}. Saya tanya kalau belum nak redeem boleh simpan dulu ke. Staf terangkan boleh, jadi saya kumpul dulu.",
+        "Saya tak nak S-Coin tu tinggal begitu saja sebab tak tahu cara guna. Masa beli {product} {purchasePrice}, terus minta staf explain. Cashback {cashbackPercent} dapat {scoinValue}, nanti boleh redeem barang lain yang saya pilih.",
+        "Penerangan staf pasal S-Coin buat saya senang nak pilih. Ambil {product} harga {purchasePrice}, dapat {cashbackPercent} bernilai {scoinValue}. Boleh simpan untuk {redeemTarget}, jadi pembelian seterusnya dah ada rancangan.",
+        "Dapat juga {product} yang dicari pada harga {purchasePrice}. Staf bagitahu cashback {cashbackPercent} saya jadi {scoinValue} S-Coin dan explain macam mana nak redeem. Saya nak tunggu sampai ada barang lain yang perlu baru guna.",
+        "Saya jenis kena tanya dulu baru faham benda macam ni. Staf terangkan cashback {cashbackPercent} untuk {product} {purchasePrice} tu dapat S-Coin {scoinValue}. Lepas tahu boleh guna untuk redeem barang lain, barulah saya decide beli.",
+        "Sambil bayar {product} {purchasePrice}, staf explain S-Coin yang dapat boleh disimpan. Jumlahnya {scoinValue}, daripada cashback {cashbackPercent}. Terus teringat {redeemTarget} yang nak dibeli nanti, bolehlah kumpul ke arah tu.",
+        "Tertarik dengan {product} ni sebab sesuai dengan keperluan, harga {purchasePrice}. Lepas staf cerita cashback {cashbackPercent} dapat S-Coin {scoinValue} untuk redeem kemudian, makin senang nak decide. Dah faham cara guna, tak rasa blur lagi.",
+        "Saya dah ada barang sasaran untuk redeem, iaitu {redeemTarget}. Pembelian {product} {purchasePrice} ni dapat cashback {cashbackPercent} sebanyak {scoinValue}. Staf bantu terangkan cara guna S-Coin bila nak tebus nanti.",
+        "Sebelum ni dengar orang sebut S-Coin tapi tak pernah ambil tahu. Hari ni beli {product} {purchasePrice}, staf explain cashback {cashbackPercent} saya bernilai {scoinValue}. Rupanya boleh guna untuk barang lain, bagus juga mula kumpul.",
+        "Saya tanya staf sama ada S-Coin ni boleh guna untuk pembelian lain. Bila dah jelas cara redeem, saya ambil {product} pada harga {purchasePrice}. Dapat {scoinValue} daripada cashback {cashbackPercent}, simpan dulu untuk nanti.",
+        "{purchasePrice} untuk {product} ni memang dah dalam bajet saya. Staf explain ada S-Coin {scoinValue} melalui cashback {cashbackPercent} yang boleh redeem kemudian. Jadi bolehlah plan {redeemTarget} pula lepas ni.",
+        "Saya pilih {product} selepas staf terangkan barang dan manfaat S-Coin sekali. Beli harga {purchasePrice}, dapat {cashbackPercent} bersamaan {scoinValue}. Yang penting saya dah tahu macam mana nak gunakan untuk redeem barang lain.",
+        "Balik kali ni ada {product} dan ada S-Coin untuk dikumpul. Harga {purchasePrice}, cashback {cashbackPercent} beri {scoinValue}. Terima kasih staf explain sampai faham, nanti boleh guna untuk redeem {redeemTarget}."
       ],
       "base_comment_count": 50,
       "possible_combinations": 50
@@ -169,63 +262,126 @@
       "short_label": "Redeem S-Coin",
       "requirements": [
         "Produk yang ditebus",
-        "Nilai S-Coin yang digunakan dalam RM"
+        "Nilai S-Coin digunakan",
+        "Cara cukupkan bayaran"
       ],
-      "note": "",
+      "note": "Pilih sama ada S-Coin bayar penuh atau perlu tambah duit supaya ayat ikut urusan sebenar.",
       "templates": [
-        "Saya guna S-Coin bernilai {scoinValue} untuk tebus {product}. Staf dekat Bentong bantu semak baki dulu.",
-        "S-Coin yang dikumpul dah digunakan untuk {product}. Nilai tebusan kali ni {scoinValue}.",
-        "Datang nak tengok apa boleh redeem, akhirnya pilih {product}. Saya gunakan S-Coin sebanyak {scoinValue}.",
-        "Untuk {product} ni, saya redeem S-Coin bernilai {scoinValue}. Senang bila staf tunjuk caranya dekat kaunter.",
-        "Saya semak baki S-Coin sebelum datang. Kali ni gunakan {scoinValue} untuk tebus {product}.",
-        "{product} memang barang yang saya perlukan. Jadi saya guna S-Coin bernilai {scoinValue} untuk tebus dekat sini.",
-        "Baru cuba redeem S-Coin untuk {product}. Nilai yang digunakan {scoinValue}, staf bantu sepanjang urusan.",
-        "Daripada biar S-Coin tersimpan, saya guna {scoinValue} untuk {product}. Dah boleh gunakan untuk barang rumah.",
-        "Staf semak kelayakan tebusan {product} dulu. Lepas tu saya gunakan S-Coin bernilai {scoinValue}.",
-        "Saya pilih {product} selepas tengok beberapa barang. Tebusan ni guna S-Coin sebanyak {scoinValue}.",
-        "Tak sangka senang je urusan redeem. Saya guna S-Coin {scoinValue} untuk {product} dekat outlet Bentong.",
-        "S-Coin daripada pembelian sebelum ni dah saya gunakan. Kali ni tebus {product} dengan nilai {scoinValue}.",
-        "Saya minta staf terangkan jumlah yang akan ditolak. Untuk tebus {product}, S-Coin yang digunakan bernilai {scoinValue}.",
-        "Ada baki S-Coin, jadi saya datang cari barang yang perlu. Saya tebus {product} menggunakan {scoinValue}.",
-        "Urusan tebus {product} dah selesai. Saya gunakan S-Coin bernilai {scoinValue} dan staf jelaskan kiraannya.",
-        "Mula-mula tak tahu macam mana nak redeem. Staf bantu saya guna S-Coin {scoinValue} untuk {product}.",
-        "Saya tak ambil barang sembarangan untuk habiskan S-Coin. Pilih {product} yang saya perlukan, nilai tebusannya {scoinValue}.",
-        "{product} kali ni saya tebus guna S-Coin. Sebanyak {scoinValue} digunakan dalam urusan ni.",
-        "Staf tunjuk nilai S-Coin dalam RM sebelum tebus. Saya gunakan {scoinValue} untuk {product}, jadi jelas jumlahnya.",
-        "Saya datang semula ke Senheng Bentong untuk guna S-Coin. Dah tebus {product}, nilainya {scoinValue}.",
-        "Simpan S-Coin dari pembelian lepas, sekarang baru guna untuk {product}. Tebusan saya bernilai {scoinValue}.",
-        "Senang bila boleh semak barang dan baki S-Coin sekali. Saya pilih {product} dan gunakan {scoinValue}.",
-        "Saya dah ada pilihan barang sebelum datang. {product} tu saya tebus menggunakan S-Coin bernilai {scoinValue}.",
-        "Tanya staf dulu sebab tak pasti {product} boleh redeem atau tak. Lepas semakan, saya guna S-Coin {scoinValue} untuk tebus.",
-        "S-Coin memang saya kumpul untuk beli barang yang perlu. Kali ni {scoinValue} digunakan untuk {product}.",
-        "Saya guna sebahagian S-Coin yang ada untuk {product}. Nilai yang ditebus kali ni ialah {scoinValue}.",
-        "Baru selesai redeem {product} dekat kaunter. S-Coin yang digunakan bernilai {scoinValue}, staf dah semak bersama saya.",
-        "Saya nak pastikan jumlah tebusan sebelum teruskan. Untuk {product} ni, saya setuju guna S-Coin bernilai {scoinValue}.",
-        "Ada barang rumah yang perlu diganti, jadi saya tebus {product}. S-Coin {scoinValue} saya gunakan untuk urusan ni.",
-        "Tak biasa dengan tebusan S-Coin, tapi staf sudi tunjuk. Saya dah guna {scoinValue} untuk {product}.",
-        "Saya pilih barang ikut keperluan dan baki yang ada. Kali ni tebus {product}, dengan S-Coin bernilai {scoinValue}.",
-        "Selesai juga urusan redeem saya. {product} dah dipilih dan S-Coin sebanyak {scoinValue} digunakan.",
-        "Saya minta semak baki sebelum dan selepas tebus {product}. S-Coin yang digunakan untuk barang ni bernilai {scoinValue}.",
-        "Staf bantu jelaskan proses tebusan, lepas tu baru saya teruskan. Saya guna S-Coin {scoinValue} untuk {product}.",
-        "Kali ni saya datang nak gunakan baki dalam app. Saya dah gunakan S-Coin bernilai {scoinValue} untuk tebus {product}.",
-        "{product} ni saya ambil melalui tebusan S-Coin. Nilai yang digunakan {scoinValue}, semuanya dijelaskan masa urusan.",
-        "Saya dah rancang nak guna S-Coin untuk {product}. Hari ni selesai tebus dengan nilai {scoinValue}.",
-        "Bagus juga S-Coin lama boleh digunakan untuk barang yang saya perlu. Tebusan {product} kali ni guna {scoinValue}.",
-        "Saya datang tanya cara gunakan S-Coin yang ada. Staf bantu sampai selesai tebus {product}, nilainya {scoinValue}.",
-        "Sebelum pilih {product}, saya tengok dulu jumlah S-Coin. Akhirnya gunakan {scoinValue} untuk tebus barang ni.",
-        "Pengalaman redeem dekat Bentong okay. Saya guna S-Coin bernilai {scoinValue} untuk {product} dan boleh tanya staf bila tak faham.",
-        "Saya mahu guna S-Coin untuk sesuatu yang memang akan dipakai. {product} jadi pilihan saya, nilai tebusan {scoinValue}.",
-        "Jumlah S-Coin yang saya gunakan ialah {scoinValue}. Saya tebus {product} selepas staf semak urusannya.",
-        "Redeem kali ni untuk {product}. Staf tunjuk cara semak S-Coin dan saya gunakan nilai {scoinValue}.",
-        "Saya simpan S-Coin sampai ada barang yang nak diambil. Dah tebus {product} menggunakan S-Coin {scoinValue}.",
-        "Tak perlu agak-agak nilai mata yang ada. Staf jelaskan dan saya guna S-Coin bernilai {scoinValue} untuk {product}.",
-        "Saya bawa keluarga tengok barang sebelum redeem. Kami pilih {product}, menggunakan S-Coin bernilai {scoinValue}.",
-        "Urusan S-Coin saya dibuat di Grand Senheng Bentong. {scoinValue} digunakan untuk menebus {product} kali ni.",
-        "Saya semak dengan staf dulu sebelum sahkan tebusan. {product} ni guna S-Coin sebanyak {scoinValue}.",
-        "Dah lama nampak baki S-Coin dalam akaun. Sekarang saya gunakan {scoinValue} untuk {product} yang memang saya nak."
+        "Dah kumpul S-Coin, hari ni baru guna {scoinValue} untuk redeem {product}. Seronok sebab boleh pilih barang yang memang nak pakai. {redeemPayment}",
+        "Datang kedai tengok barang, staf check baki S-Coin dan cadangkan guna untuk {product}. Saya redeem {scoinValue}, baru terasa hasil kumpul selama ni. {redeemPayment}",
+        "Memang simpan S-Coin untuk {product}, akhirnya hari ni tebus juga. Guna {scoinValue} dan staf bantu urus dekat kaunter. {redeemPayment}",
+        "Saya hampir terlupa ada S-Coin. Nasib staf ingatkan masa dekat kedai, terus pilih {product} dan redeem {scoinValue}. {redeemPayment}",
+        "Kali ni datang Senheng memang nak guna S-Coin yang dah dikumpul. Saya pilih {product} sebab itu yang diperlukan, redeem {scoinValue}. {redeemPayment}",
+        "Staf tunjuk baki S-Coin saya masih ada, kemudian bantu tengok barang yang boleh diambil. Berkenan dengan {product}, jadi guna {scoinValue} untuk redeem. {redeemPayment}",
+        "Sebelum ni beli barang sambil kumpul S-Coin, sekarang dapat guna untuk {product} pula. Redeem {scoinValue} dekat Bentong, staf explain bayaran dengan jelas. {redeemPayment}",
+        "Dah lama berkenan {product}, kali ni gunakan S-Coin {scoinValue} yang disimpan. Best dapat pilih sendiri barang yang nak bawa balik. {redeemPayment}",
+        "Saya tanya staf nak guna S-Coin macam mana sebab belum pernah redeem. Dia bantu semak dan saya pilih {product}, guna {scoinValue}. {redeemPayment}",
+        "Tak sia-sia kumpul sikit-sikit, hari ni redeem {product} dengan S-Coin {scoinValue}. Puas hati sebab barang tu memang akan digunakan. {redeemPayment}",
+        "Masa singgah kedai, staf bagitahu saya ada baki S-Coin yang boleh guna. Terus cari {product} dan redeem {scoinValue}. {redeemPayment}",
+        "Saya tunggu sampai ada barang yang betul-betul perlu baru guna S-Coin. Hari ni ambil {product} dengan redemption {scoinValue}, senang staf bantu urus. {redeemPayment}",
+        "Boleh pilih sendiri nak redeem apa, itu yang saya suka. Saya ambil {product} guna S-Coin {scoinValue} yang dah dikumpul. {redeemPayment}",
+        "Ingat nak simpan lagi S-Coin, tapi nampak {product} yang memang dicari. Staf bantu kira dan saya redeem {scoinValue} terus. {redeemPayment}",
+        "Ada juga hasil kumpul S-Coin selama ni. Dah dapat tebus {product} menggunakan {scoinValue}, staf tunjuk jumlah sebelum saya setuju. {redeemPayment}",
+        "Saya datang dengan niat nak redeem, cuma belum decide barang apa. Lepas tengok pilihan, ambil {product} dan guna S-Coin {scoinValue}. {redeemPayment}",
+        "Staf yang ingatkan saya tentang baki S-Coin masa nak pilih barang. Saya guna {scoinValue} untuk {product}, rasa sayang pula kalau tak gunakan bila dah ada keperluan. {redeemPayment}",
+        "Hari ni giliran S-Coin yang dikumpul tu digunakan. Pilih {product}, redeem {scoinValue} dan staf bantu sampai selesai. {redeemPayment}",
+        "Saya suka dapat gunakan S-Coin untuk barang yang saya pilih sendiri. Kali ni {product} jadi pilihan, jumlah tebus {scoinValue}. {redeemPayment}",
+        "Mula-mula cuma nak check berapa baki S-Coin. Lepas staf tunjuk dan explain, saya decide redeem {scoinValue} untuk {product}. {redeemPayment}",
+        "Dah ada target {product} dari sebelum datang kedai lagi. Guna S-Coin {scoinValue} yang disimpan untuk redeem hari ni, lega dapat juga barang tu. {redeemPayment}",
+        "Tak tahu baki S-Coin saya dah boleh digunakan untuk pembelian ni sampai staf terangkan. Saya pilih {product} dan redeem {scoinValue}. {redeemPayment}",
+        "Saya tak nak redeem barang yang akhirnya tak dipakai. Jadi pilih {product} yang memang berguna, guna S-Coin {scoinValue}. {redeemPayment}",
+        "Seronok bila S-Coin daripada pembelian lepas boleh digunakan sekarang. Ambil {product} dan tebus {scoinValue}, staf bantu semak semua sebelum bayar. {redeemPayment}",
+        "Singgah Bentong nak tengok apa boleh redeem dengan S-Coin. Akhirnya pilih {product}, guna {scoinValue} daripada baki yang ada. {redeemPayment}",
+        "Saya dah kumpul S-Coin dan kali ni rasa sesuai nak gunakan. Redeem {product} dengan nilai {scoinValue}, proses dekat kaunter pun mudah nak ikut. {redeemPayment}",
+        "Staf cadangkan semak S-Coin dulu sebelum terus buat bayaran. Mujur check, boleh guna {scoinValue} untuk {product} yang saya pilih. {redeemPayment}",
+        "Bila dah tahu cara redeem, baru rasa nak gunakan S-Coin yang ada. Hari ni ambil {product}, jumlah S-Coin yang digunakan {scoinValue}. {redeemPayment}",
+        "Memang rasa puas bila barang yang diidamkan boleh ditebus dengan S-Coin simpanan. Saya pilih {product} dan redeem {scoinValue}. {redeemPayment}",
+        "Terima kasih staf tolong tengok baki dan explain pilihan redemption. Saya pun pilih {product} guna S-Coin {scoinValue}, tak terbiar lagi baki tu. {redeemPayment}",
+        "Dah kumpul S-Coin sampai cukup, hari ni redeem {product} guna {scoinValue}. Tak perlu keluar duit tambahan untuk barang ni. Rasa macam dapat barang free, siap boleh pilih sendiri yang nak.",
+        "Staf check baki dan bagitahu S-Coin saya cukup untuk {product}. Terus redeem {scoinValue}, semuanya ditampung dengan S-Coin. Happy dapat bawa balik barang tanpa tambah cash.",
+        "Saya memang tunggu S-Coin cukup baru redeem {product}. Hari ni guna {scoinValue} dan tak perlu top up apa-apa. Lagi seronok sebab barang tu saya sendiri yang pilih.",
+        "Datang kedai, pilih {product}, kemudian staf bantu redeem S-Coin {scoinValue}. Bila kira cukup untuk bayar semuanya, rasa macam dapat hadiah hasil kumpul sendiri.",
+        "Tak sangka boleh ambil {product} guna S-Coin saja. Staf semak baki, saya redeem {scoinValue} dan tak perlu tambah duit. Untung juga simpan S-Coin daripada pembelian lepas.",
+        "Dulu kumpul, sekarang baru terasa seronoknya. Redeem {product} dengan S-Coin {scoinValue} dan semua bayaran selesai tanpa cash tambahan. Boleh pilih barang yang memang saya nak guna pula tu.",
+        "Saya minta staf tengok barang yang boleh ditampung oleh baki S-Coin. Pilih {product}, redeem {scoinValue}, memang cukup bayar penuh. Balik dengan barang yang saya pilih sendiri, rasa macam free.",
+        "S-Coin saya dah cukup untuk {product}, jadi tak tunggu lama terus redeem {scoinValue}. Staf bantu urus dan tak ada duit tambahan diperlukan. Puas hati dapat guna hasil kumpul selama ni.",
+        "Masa staf bagitahu baki cukup untuk tebus {product}, terus rasa seronok. Saya guna S-Coin {scoinValue} untuk bayar penuh. Barang yang dibawa balik pun memang saya sendiri nak, bukan hadiah yang dah ditetapkan.",
+        "Hari ni tak keluarkan cash untuk {product} sebab semuanya guna S-Coin {scoinValue}. Dah kumpul dari sebelum ni dan akhirnya jumpa barang yang sesuai nak redeem. Memang rasa berbaloi simpan.",
+        "S-Coin saya belum cukup bayar penuh {product}, tapi boleh guna {scoinValue} dulu. Saya tambah {topupAmount} untuk baki, masih ringan daripada bayar semuanya sendiri.",
+        "Saya nak {product} ni walaupun S-Coin tak cover habis. Staf explain boleh redeem {scoinValue} dan tambah {topupAmount}, jadi saya teruskan. Senang dapat pilih barang yang memang nak.",
+        "Daripada biarkan S-Coin, saya guna {scoinValue} untuk {product}. Baki {topupAmount} saya bayar sendiri selepas staf tunjuk kiraan. Dapat kurangkan duit yang kena keluar juga.",
+        "Dah kumpul S-Coin, kali ni redeem {scoinValue} untuk {product}. Tak cukup penuh, jadi saya top up {topupAmount}. Masih happy sebab tak perlu tanggung harga penuh dengan cash.",
+        "Staf semak baki S-Coin dan bantu kira untuk {product} yang saya pilih. Guna {scoinValue}, tambah lagi {topupAmount} dan selesai. Jelas dari awal berapa saya perlu bayar.",
+        "Memang target nak {product}, jadi saya guna S-Coin {scoinValue} yang ada dulu. Tambah {topupAmount} untuk cukupkan bayaran. Boleh ambil barang pilihan sendiri sambil manfaatkan S-Coin simpanan.",
+        "Saya sangka kena tunggu S-Coin cukup baru boleh guna. Staf explain boleh redeem {scoinValue} untuk {product} dan bayar baki {topupAmount}. Okey sangat untuk saya sebab barang tu dah diperlukan.",
+        "Tengok {product} dekat kedai, terus tanya boleh guna S-Coin ke. Staf bantu redeem {scoinValue} dan saya tambah {topupAmount}. Lega ada S-Coin yang boleh kurangkan bayaran.",
+        "Kali ni gunakan S-Coin terkumpul untuk ambil {product}. Redeem {scoinValue}, baki {topupAmount} saya tambah sendiri. Proses mudah dan staf explain jumlah dengan jelas.",
+        "Saya pilih {product} ikut keperluan, kemudian baru tengok berapa S-Coin boleh guna. Redeem {scoinValue} dan tambah {topupAmount}. Seronok dapat guna baki yang disimpan untuk barang yang saya suka."
       ],
       "base_comment_count": 50,
-      "possible_combinations": 50
+      "possible_combinations": 50,
+      "template_conditions": {
+        "30": {
+          "redeemCoverage": "full"
+        },
+        "31": {
+          "redeemCoverage": "full"
+        },
+        "32": {
+          "redeemCoverage": "full"
+        },
+        "33": {
+          "redeemCoverage": "full"
+        },
+        "34": {
+          "redeemCoverage": "full"
+        },
+        "35": {
+          "redeemCoverage": "full"
+        },
+        "36": {
+          "redeemCoverage": "full"
+        },
+        "37": {
+          "redeemCoverage": "full"
+        },
+        "38": {
+          "redeemCoverage": "full"
+        },
+        "39": {
+          "redeemCoverage": "full"
+        },
+        "40": {
+          "redeemCoverage": "partial"
+        },
+        "41": {
+          "redeemCoverage": "partial"
+        },
+        "42": {
+          "redeemCoverage": "partial"
+        },
+        "43": {
+          "redeemCoverage": "partial"
+        },
+        "44": {
+          "redeemCoverage": "partial"
+        },
+        "45": {
+          "redeemCoverage": "partial"
+        },
+        "46": {
+          "redeemCoverage": "partial"
+        },
+        "47": {
+          "redeemCoverage": "partial"
+        },
+        "48": {
+          "redeemCoverage": "partial"
+        },
+        "49": {
+          "redeemCoverage": "partial"
+        }
+      }
     },
     "plusone_entitlement": {
       "label": "PlusOne Warranty Entitlement",
@@ -360,58 +516,58 @@
         "Produk",
         "Pengalaman ambil Replacement Warranty"
       ],
-      "note": "RW ialah add-on berbayar untuk small appliances yang layak sahaja. Bukan semua SA boleh ambil RW.",
+      "note": "RW ialah Replacement Warranty berbayar untuk small appliances yang layak. Tempoh keseluruhan 2 tahun dari tarikh beli. Gantian tertakluk pada kerosakan dilindungi dan semakan tuntutan.",
       "templates": [
-        "Saya tambah Replacement Warranty untuk {product}. Staf terangkan caj tambahan dan semak dulu barang ni layak untuk RW.",
-        "Beli {product} sekali dengan add-on Replacement Warranty berbayar. Saya tanya syaratnya dulu sebelum setuju ambil.",
-        "{product} ni antara barang yang layak untuk RW. Saya pilih tambah Replacement Warranty selepas staf jelaskan kosnya.",
-        "Saya ambil Replacement Warranty masa beli {product}. Staf bagitahu dari awal ia add-on berbayar, jadi jelas jumlah pembelian saya.",
-        "Sebelum tambah RW untuk {product}, saya minta penerangan ringkas. Lepas faham caj dan syaratnya, baru saya setuju.",
-        "Saya beli {product} dan tambah Replacement Warranty yang berbayar. Kelayakan barang dah disemak, bukan terus tambah tanpa penjelasan.",
-        "Staf terangkan pilihan RW untuk {product}. Saya pilih untuk bayar add-on tu selepas semak apa yang dilindungi.",
-        "Untuk {product} ni, saya ambil tambahan Replacement Warranty. Cajnya dijelaskan berasingan daripada harga barang.",
-        "Saya nak tahu beza warranty asal dengan RW masa beli {product}. Staf jelaskan dan saya pilih add-on Replacement Warranty berbayar.",
-        "{product} dah dipilih, kemudian baru saya bincang tentang RW. Saya tambah perlindungan berbayar tu selepas tahu syaratnya.",
-        "Saya tanya dulu sama ada {product} layak ambil Replacement Warranty. Lepas staf sahkan, saya setuju dengan bayaran tambahan RW.",
-        "Masa bayar {product}, saya ambil RW sekali. Staf tunjuk caj Replacement Warranty supaya saya tahu jumlah keseluruhan.",
-        "Saya tak pernah ambil RW sebelum ni. Untuk {product}, staf terangkan add-on berbayar tu dan saya pilih untuk tambah.",
-        "Pembelian {product} saya termasuk tambahan Replacement Warranty yang saya bayar. Staf dah semak kelayakan barang ni.",
-        "Saya baca dan tanya tentang RW sebelum ambil {product}. Lepas penerangan staf, saya setuju tambah Replacement Warranty berbayar.",
-        "Staf beri pilihan sama ada nak tambah RW untuk {product}. Saya ambil add-on berbayar tu atas pilihan sendiri.",
-        "Saya guna {product} untuk rumah dan pilih tambah Replacement Warranty. Kos tambahan diterangkan sebelum urusan diteruskan.",
-        "Ada pilihan RW untuk {product} yang saya beli. Saya setuju bayar add-on tu selepas staf jelaskan syarat gantian.",
-        "Saya minta kira jumlah {product} sekali dengan RW. Bila dah tahu kos tambahan Replacement Warranty, baru saya teruskan.",
-        "Untuk barang {product} ni, staf sahkan boleh ambil RW. Saya pilih tambah Replacement Warranty berbayar semasa beli.",
-        "Saya nak faham dulu sebelum bayar lebih untuk warranty. Staf terangkan RW {product}, kemudian saya pilih add-on tu.",
-        "Beli {product} di Bentong, saya tambah Replacement Warranty sekali. Cajnya bukan termasuk harga asal, staf dah jelaskan dari awal.",
-        "Saya semak terma RW bersama staf untuk {product}. Selepas tu saya ambil Replacement Warranty dengan bayaran tambahan.",
-        "{product} yang saya ambil layak untuk add-on RW. Saya tambah perlindungan berbayar tu selepas tanya beberapa soalan.",
-        "Saya pilih Replacement Warranty untuk {product}, dan staf tunjuk caj add-on dalam jumlah pembelian. Senang nak semak.",
-        "Staf tak anggap RW tu automatik. Masa beli {product}, dia terangkan pilihan berbayar ni dan saya setuju tambah.",
-        "Saya tanya cara rujuk RW nanti sebelum tambah pada {product}. Lepas faham, saya bayar add-on Replacement Warranty sekali.",
-        "Pembelian {product} kali ni saya tambah RW. Harga add-on dan syarat kelayakan diterangkan sebelum saya buat keputusan.",
-        "Saya mahu tahu apa yang dibayar untuk {product}. Staf asingkan penerangan harga barang dan caj Replacement Warranty yang saya ambil.",
-        "Ada bayaran tambahan bila ambil RW untuk {product}. Saya dah dimaklumkan dan pilih untuk tambah selepas semak syaratnya.",
-        "Staf terangkan Replacement Warranty bagi {product} dengan contoh yang mudah faham. Saya setuju ambil add-on berbayar tu.",
-        "Saya semak dulu bahawa {product} termasuk barang yang layak RW. Kemudian baru tambah Replacement Warranty dengan bayaran yang dijelaskan.",
-        "Masa pilih {product}, saya ada tanya tentang perlindungan tambahan. Akhirnya saya ambil Replacement Warranty berbayar yang layak untuk barang ni.",
-        "Saya tambah RW pada pembelian {product} selepas tengok jumlah keseluruhan. Caj add-on diterangkan, jadi saya tahu apa yang saya pilih.",
-        "{product} ni saya beli dengan Replacement Warranty tambahan. Saya bayar untuk RW tu selepas staf terangkan kegunaannya.",
-        "Saya minta staf ulang syarat RW untuk {product} sebab kurang faham awalnya. Lepas jelas, saya pilih add-on berbayar tu.",
-        "Staf semak model {product} sebelum menawarkan RW. Saya setuju tambah Replacement Warranty dan cajnya dah dimaklumkan.",
-        "Saya ada pilihan untuk beli {product} sahaja atau tambah RW. Saya pilih yang dengan Replacement Warranty berbayar selepas penerangan staf.",
-        "Sebelum selesai beli {product}, saya semak butiran RW sekali lagi. Saya ambil add-on berbayar tu selepas faham syaratnya.",
-        "Saya tak biasa dengan istilah Replacement Warranty. Masa beli {product}, staf jelaskan dan saya setuju tambah perlindungan berbayar ni.",
-        "{product} yang saya beli ada add-on RW yang layak dipilih. Saya ambil dengan bayaran tambahan selepas bincang dengan staf.",
-        "Saya tanya kos RW untuk {product} dulu. Bila dah faham apa yang ditawarkan dan syaratnya, saya pilih untuk tambah.",
-        "Staf jelaskan RW bukan automatik untuk semua barang. {product} saya layak, jadi saya ambil Replacement Warranty berbayar.",
-        "Saya buat keputusan tambah RW selepas pilih {product}. Staf beri penerangan tentang caj dan proses rujukan kalau ada masalah nanti.",
-        "Jumlah pembelian {product} saya termasuk RW yang dipilih sendiri. Caj Replacement Warranty diterangkan sebelum saya bayar.",
-        "Saya ambil {product} bersama Replacement Warranty berbayar. Staf bantu semak maklumat add-on supaya saya boleh rujuk kemudian.",
-        "Untuk {product} ni, saya minta staf jelaskan syarat RW tanpa istilah susah. Lepas faham, saya pilih bayar tambahan untuk Replacement Warranty.",
-        "Saya setuju tambah Replacement Warranty pada {product}. Kelayakan barang dan bayaran add-on disahkan masa pembelian.",
-        "Bila staf tunjuk pilihan RW untuk {product}, saya tanya dulu sebelum ambil. Saya bayar add-on tu selepas tahu syarat asasnya.",
-        "Saya simpan maklumat pembelian {product} sekali dengan RW. Replacement Warranty berbayar ni memang saya pilih semasa beli."
+        "Masa beli {product}, staf offer tambah RW dan explain maksudnya Replacement Warranty. Ada bayaran tambahan, tapi tempoh perlindungan jadi 2 tahun dari tarikh beli dan boleh dapat gantian untuk kerosakan yang dilindungi selepas semakan. Saya rasa berbaloi, jadi ambil sekali.",
+        "Saya ingat RW tu sama saja dengan warranty biasa. Staf terangkan masa pilih {product}, rupanya add-on berbayar untuk gantian 1-to-1 bagi kerosakan yang layak. Lepas tahu syarat dan caj, saya decide tambah.",
+        "Pernah guna RW sebelum ni dan dapat tukar barang rosak, jadi beli {product} kali ni saya tanya terus. Staf semak kelayakan dan explain caj add-on. Saya ambil lagi sebab pengalaman lepas memang membantu.",
+        "Beli {product} untuk kegunaan rumah, staf cadangkan tambah Replacement Warranty. Dia explain perlindungan sampai 2 tahun dari tarikh beli dengan gantian ikut syarat, bukan semua kerosakan cover. Bila dah faham, saya setuju bayar tambahan.",
+        "Tak pernah tahu ada pilihan RW sebelum datang ni. Staf explain untuk {product} yang saya beli, boleh tambah perlindungan gantian bagi kerosakan yang layak. Saya pilih add-on berbayar tu sebab rasa berguna untuk jangka panjang.",
+        "Saya tanya kalau {product} rosak nanti kena buat macam mana. Staf terangkan RW ialah Replacement Warranty, ada gantian selepas claim disemak dan diluluskan. Lepas tengok caj dan syarat, saya tambah sekali masa beli.",
+        "Dulu pernah menyesal tak ambil perlindungan tambahan, jadi kali ni saya dengar dulu penerangan staf. {product} ni layak tambah RW untuk gantian jika kerosakan dilindungi. Saya pun ambil add-on berbayar tu, lebih tenang sikit.",
+        "Staf tak terus suruh tambah saja, dia explain apa fungsi RW untuk {product}. Perlindungan gantian ni sampai 2 tahun dari tarikh pembelian, dengan syarat yang diterangkan. Saya tahu cajnya dan setuju ambil.",
+        "Saya beli {product} dan tambah RW lepas staf explain maksud Replacement Warranty. Kalau ada kerosakan yang layak, boleh dapat gantian selepas semakan. Rasa sesuai untuk barang yang saya nak pakai lama.",
+        "Memang dah kenal RW sebab pernah claim barang sebelum ni. Masa beli {product}, saya minta staf check boleh tambah tak. Bila sah layak, saya bayar add-on gantian tu sekali.",
+        "Awalnya bajet beli {product} saja. Lepas staf terangkan RW dan cara gantian untuk kerosakan yang dilindungi, saya rasa elok tambah protection. Caj tambahan pun diberitahu sebelum saya buat keputusan.",
+        "RW ni baru saya faham selepas staf explain dekat kedai. Untuk {product}, ia add-on Replacement Warranty dengan perlindungan sehingga 2 tahun dari tarikh beli. Saya pilih tambah selepas tahu syarat gantian dan kosnya.",
+        "Saya banyak tanya pasal 1-to-1 masa beli {product}. Staf explain kena semak kerosakan dan kelayakan claim dulu, kemudian baru urus gantian ikut RW. Okey dengan syarat tu, jadi saya ambil add-on berbayar.",
+        "Pernah ada barang rosak dan dapat gantian melalui RW, memang lega masa tu. Sebab itu beli {product} kali ni saya tambah lagi. Staf semak model layak dan terangkan semula perlindungan gantian yang saya ambil.",
+        "{product} ni saya plan guna selalu, jadi tanya staf pasal protection tambahan. Dia cadangkan RW, warranty gantian berbayar untuk kerosakan yang layak. Saya faham caj dan syarat sebelum setuju tambah.",
+        "Masa dekat kaunter, staf explain ada pilihan Replacement Warranty untuk {product}. Tempoh keseluruhan 2 tahun dari tarikh beli, dengan gantian untuk claim yang diluluskan. Saya ambil sebab rasa berbaloi untuk penggunaan nanti.",
+        "Saya tak biasa dengan singkatan RW, ingat aksesori tambahan. Staf explain itu perlindungan gantian berbayar untuk {product} yang layak. Lepas penerangan, saya decide tambah sekali dengan pembelian.",
+        "Nak beli {product} ni saya fikir juga kalau rosak kemudian. Staf terangkan RW boleh beri gantian bagi kerosakan yang dilindungi selepas semakan. Jadi saya pilih bayar add-on tu supaya ada protection tambahan.",
+        "Sebelum setuju tambah RW, saya tanya apa beza dengan warranty asal {product}. Staf explain perlindungan gantian dan syaratnya dengan jelas. Dah faham baru saya bayar tambahan, tak rasa main ambil saja.",
+        "Saya memang cari pilihan perlindungan yang ada gantian kalau claim layak. Staf semak {product} dan terangkan Replacement Warranty yang boleh ditambah. Saya ambil RW berbayar tu untuk pembelian kali ni.",
+        "Bila staf sebut RW masa beli {product}, saya minta explain bahasa mudah. Rupanya add-on untuk gantian 1-to-1 bagi kerosakan yang dilindungi, kena semakan dulu. Rasa sesuai, jadi saya tambah.",
+        "{product} dah dipilih, lepas tu baru bincang pasal warranty. Staf tunjuk pilihan RW sampai 2 tahun dari tarikh beli dan explain urusan gantian. Saya ambil add-on berbayar tu selepas semak syarat.",
+        "Saya pernah dapat tukar barang rosak melalui RW, jadi tahu juga kegunaannya. Kali ni beli {product}, terus tanya staf tentang add-on yang sama. Model layak dan caj dah jelas, saya tambah sekali.",
+        "Staf explain bukan semua barang boleh tambah Replacement Warranty. {product} yang saya pilih layak, dengan perlindungan gantian untuk kerosakan tertentu. Saya setuju tambah RW berbayar selepas dengar penerangan.",
+        "Tak pernah fikir pasal warranty gantian sebelum ni. Masa beli {product}, staf explain RW boleh bantu dapat gantian jika claim menepati syarat. Saya rasa caj tambahan tu berbaloi untuk protection akan datang.",
+        "Saya tanya tempoh RW untuk {product} ni dikira macam mana. Staf explain jumlahnya 2 tahun dari tarikh beli, bersama syarat gantian. Lepas jelas semua, saya ambil add-on berbayar tu.",
+        "Beli {product} dan tambah Replacement Warranty sekali. Staf terangkan kalau ada kerosakan yang dilindungi, claim akan disemak untuk gantian. Senang hati bila tahu apa yang saya bayar dan cara rujuk nanti.",
+        "Pengalaman lepas claim RW berjalan baik, barang rosak dapat diganti. Jadi masa beli {product} ni saya tak lupa tanya pilihan tu. Staf sahkan kelayakan dan saya tambah perlindungan gantian berbayar lagi.",
+        "Saya nak {product} yang sesuai dengan bajet, termasuk kalau nak tambah protection. Staf explain harga RW dan perlindungan gantian yang ditawarkan. Lepas timbang, saya decide tambah sebab rasa mampu dan berguna.",
+        "Mula-mula saya ingat RW tu percuma sekali dengan barang. Staf jelaskan ia add-on berbayar untuk gantian yang tertakluk pada syarat. Untuk {product} ni saya pilih ambil selepas faham apa yang dilindungi.",
+        "Staf bagi masa untuk saya fikir nak tambah RW pada {product} atau tidak. Dia dah explain warranty gantian dan cajnya, jadi senang saya buat keputusan. Akhirnya ambil sebab nak ada perlindungan tambahan.",
+        "Saya beli {product}, kemudian staf terangkan pilihan 1-to-1 Replacement Warranty. Kerosakan kena disemak dulu dan claim mesti layak untuk gantian. Saya setuju tambah dengan caj yang diberitahu.",
+        "Dulu bila barang rosak saya terus fikir kena beli lain. Kali ni staf explain masa beli {product}, ada RW yang beri gantian untuk claim dilindungi. Jadi saya ambil add-on berbayar tu supaya ada pilihan kalau timbul masalah nanti.",
+        "Untuk {product} ni saya ambil RW selepas dengar penerangan staf. Tempoh keseluruhan perlindungan 2 tahun dari pembelian, termasuk manfaat gantian ikut syarat. Rasa lebih yakin sebab semua dah diterangkan awal.",
+        "Saya bukan terus faham bila dengar nama Replacement Warranty. Staf bagi contoh cara claim dan gantian untuk {product}, baru jelas kegunaannya. Saya pun tambah RW berbayar masa buat pembayaran.",
+        "Pernah dapat gantian barang melalui RW sebelum ni, jadi kali ni memang nak tambah juga. Staf check {product} layak dan jelaskan caj serta syarat terkini. Saya ambil perlindungan gantian tu sekali dengan barang.",
+        "Masa pilih {product}, saya tanya staf kalau nak warranty lebih panjang ada pilihan apa. Dia terangkan RW dengan tempoh keseluruhan 2 tahun dari tarikh beli dan manfaat gantian. Saya setuju tambah selepas tahu kos serta syaratnya.",
+        "Saya suka staf explain RW sampai saya faham apa yang cover. Untuk {product}, add-on berbayar ni bagi perlindungan gantian kalau kerosakan dan claim layak. Saya pilih ambil sebab nak fikir penggunaan ke depan juga.",
+        "Dah nak bayar {product}, staf tanya nak tahu tentang Replacement Warranty tak. Lepas dengar tentang gantian 1-to-1 ikut syarat dan caj tambahan, saya rasa boleh pertimbangkan. Akhirnya saya tambah sekali.",
+        "Saya tambah RW pada {product} sebab pernah rasa susah bila barang rosak tanpa protection tambahan. Staf explain warranty gantian ni perlu semakan claim dan ada syarat. Dengan penerangan tu, saya tahu apa yang saya ambil.",
+        "Nama RW saja memang saya tak tahu maksudnya. Staf terangkan ia Replacement Warranty untuk {product} yang layak, boleh dapat gantian bagi claim yang diluluskan. Lepas tengok caj, saya decide bayar tambahan.",
+        "Beli {product} ni saya ambil masa sikit untuk faham pilihan warranty. Staf explain RW beri perlindungan gantian sampai 2 tahun dari tarikh beli. Saya tambah add-on berbayar tu selepas jelas tentang syaratnya.",
+        "Saya pernah claim RW dan dapat barang ganti, jadi terasa manfaatnya. Bila ambil {product} kali ni, saya tanya terus pasal perlindungan gantian yang sama. Staf bantu semak kelayakan dan saya tambah dengan bayaran.",
+        "Sebelum ni saya cuma tengok harga barang, tak fikir pasal RW. Untuk pembelian {product}, staf explain pilihan warranty gantian berbayar dengan baik. Saya ambil sebab rasa berbaloi ada perlindungan kalau kerosakan memenuhi syarat.",
+        "Saya tanya banyak juga tentang apa jadi kalau {product} rosak. Staf explain RW boleh beri gantian selepas semakan dan kelulusan, bukan semua kes terus tukar. Lepas faham, saya tetap pilih add-on ni sebab sesuai dengan keperluan saya.",
+        "Dah jumpa {product} yang nak dibeli, staf terangkan pula pilihan RW. Perlindungan gantian ni berbayar dan tempohnya 2 tahun dari tarikh pembelian. Saya semak caj dan syarat dulu, kemudian setuju tambah.",
+        "Saya nak tahu betul-betul sebelum bayar extra untuk {product}. Staf explain Replacement Warranty tu cover gantian bagi kerosakan yang layak, termasuk cara buat tuntutan. Baru saya rasa selesa untuk tambah RW.",
+        "Bagi saya, pengalaman lepas dapat tukar barang melalui RW memang membantu. Sebab tu beli {product} ni saya minta tambah lagi jika layak. Staf semak dan saya bayar add-on perlindungan gantian tu sekali.",
+        "RW untuk {product} ni saya ambil selepas staf explain manfaat dan batas perlindungannya. Ada gantian untuk claim yang diluluskan, dengan tempoh keseluruhan 2 tahun dari tarikh beli. Caj tambahan pun saya dah tahu sebelum setuju.",
+        "Saya tak pernah ambil Replacement Warranty sebelum ni. Masa beli {product}, staf terangkan perlindungan gantian dan apa yang perlu dibuat kalau ada masalah. Rasa berbaloi dengan caj yang ditawarkan, jadi kali ni saya cuba tambah RW."
       ],
       "base_comment_count": 50,
       "possible_combinations": 50
@@ -424,61 +580,91 @@
         "Pengalaman claim Replacement Warranty",
         "Hasil gantian sebenar"
       ],
-      "note": "Untuk tuntutan RW yang dah selesai sahaja. Pilih gantian yang betul-betul diterima. RW untuk small appliances yang layak.",
+      "note": "Untuk claim RW yang dah selesai. Pilih gantian sebenar; sebut selesai hari yang sama hanya jika itu pengalaman anda.",
       "templates": [
-        "Saya claim Replacement Warranty untuk {product}. Tuntutan dah selesai dan saya dapat {replacementOutcome}.",
-        "{product} ada masalah, jadi saya rujuk RW yang diambil masa beli. Selepas urusan tuntutan, saya terima {replacementOutcome}.",
-        "Urusan claim RW {product} saya dah selesai dekat Bentong. Hasil tuntutan tu, saya dapat {replacementOutcome}.",
-        "Saya bawa kes {product} kepada staf untuk semakan Replacement Warranty. Lepas tuntutan diproses, gantian saya ialah {replacementOutcome}.",
-        "Ini pengalaman saya claim RW untuk {product}. Staf bantu semak dan saya akhirnya dapat {replacementOutcome}.",
-        "Saya dah gunakan Replacement Warranty bagi {product}. Selepas urusan selesai, saya terima {replacementOutcome}, seperti yang dijelaskan staf.",
-        "Masa {product} rosak, saya tanya tentang RW. Tuntutan saya dah selesai dengan {replacementOutcome} sebagai gantian.",
-        "Staf semak rekod RW {product} saya dulu. Selepas urusan tuntutan, saya dapat {replacementOutcome}.",
-        "Saya tak biasa claim Replacement Warranty, jadi minta staf bantu untuk {product}. Urusan dah selesai dan saya terima {replacementOutcome}.",
-        "Untuk tuntutan RW {product} ni, saya dapat {replacementOutcome}. Staf terangkan hasil semakan sebelum urusan diselesaikan.",
-        "Saya rujuk outlet Bentong tentang {product} yang bermasalah. Claim Replacement Warranty selesai dan saya dapat {replacementOutcome}.",
-        "{product} saya dituntut melalui RW. Lepas semakan dan urusan gantian, saya terima {replacementOutcome}.",
-        "Saya ada simpan maklumat RW masa beli {product}. Bila buat tuntutan, staf bantu semak sampai saya dapat {replacementOutcome}.",
-        "Urusan Replacement Warranty {product} ni saya buat melalui outlet. Hasilnya saya terima {replacementOutcome} selepas tuntutan selesai.",
-        "Saya tanya staf apa yang perlu disediakan untuk claim RW {product}. Selepas semuanya diuruskan, saya dapat {replacementOutcome}.",
-        "Baru selesai urusan gantian {product} melalui Replacement Warranty. Saya terima {replacementOutcome} untuk tuntutan ni.",
-        "Staf bantu jelaskan keputusan claim RW untuk {product}. Gantian yang saya dapat ialah {replacementOutcome}.",
-        "Saya gunakan RW yang diambil untuk {product}. Tuntutan dah diproses dan saya terima {replacementOutcome}.",
-        "Bila {product} bermasalah, saya semak semula rekod pembelian. Selepas claim Replacement Warranty, saya dapat {replacementOutcome}.",
-        "Saya semak syarat RW {product} dengan staf sebelum buat tuntutan. Urusan selesai dengan {replacementOutcome} yang saya terima.",
-        "Claim Replacement Warranty {product} dah selesai. Saya dapat {replacementOutcome}, dan staf bantu jelaskan urusan gantian tu.",
-        "Saya datang untuk tanya tentang {product}, kemudian teruskan tuntutan RW. Selepas diproses, saya dapat {replacementOutcome}.",
-        "Untuk kes {product} saya, RW yang diambil memang digunakan. Saya dah terima {replacementOutcome} selepas tuntutan selesai.",
-        "Staf bantu semak maklumat pembelian {product} untuk claim Replacement Warranty. Akhir urusan, saya dapat {replacementOutcome}.",
-        "Saya rujuk masalah {product} bawah RW dan ikut proses tuntutan. Gantian yang diterima ialah {replacementOutcome}.",
-        "{product} ni dah saya buat claim Replacement Warranty. Selepas urusan dengan outlet, saya dapat {replacementOutcome}.",
-        "Saya minta staf terangkan hasil tuntutan RW {product}. Dah selesai, dan saya terima {replacementOutcome} sebagai gantiannya.",
-        "Mula-mula tak tahu cara claim RW {product}. Staf bantu uruskan dan selepas selesai saya dapat {replacementOutcome}.",
-        "Saya semak perkembangan tuntutan Replacement Warranty {product} dengan outlet. Sekarang urusan dah selesai dan saya terima {replacementOutcome}.",
-        "Maklumat {product} saya disahkan untuk claim RW. Selepas proses tuntutan, saya dapat {replacementOutcome}.",
-        "Saya simpan dokumen pembelian, jadi boleh rujuk semula RW {product}. Tuntutan selesai dan saya dah dapat {replacementOutcome}.",
-        "Urusan gantian {product} saya dibuat melalui Replacement Warranty. Staf bantu dengan semakan, kemudian saya terima {replacementOutcome}.",
-        "Saya ada soalan tentang claim RW {product} dan staf bantu jawab. Selepas tuntutan diselesaikan, saya dapat {replacementOutcome}.",
-        "Bagi {product} yang bermasalah ni, saya gunakan Replacement Warranty. Hasil tuntutan saya ialah {replacementOutcome}.",
-        "Saya dah rujuk staf Bentong untuk urusan RW {product}. Selepas proses yang diperlukan, saya terima {replacementOutcome}.",
-        "Tuntutan {product} melalui Replacement Warranty dah sampai ke urusan gantian. Saya dapat {replacementOutcome}.",
-        "Staf jelaskan langkah claim RW {product} dari awal. Urusan saya dah selesai dengan {replacementOutcome} yang diterima.",
-        "Saya datang semula dengan maklumat {product} untuk tuntutan Replacement Warranty. Selepas diproses, saya dapat {replacementOutcome}.",
-        "RW yang saya tambah masa beli {product} dah digunakan untuk claim. Saya terima {replacementOutcome} selepas urusan selesai.",
-        "Saya rujuk kes {product} dan staf bantu semak Replacement Warranty. Gantian akhirnya ialah {replacementOutcome}.",
-        "Untuk claim RW {product}, saya ikut proses yang diterangkan outlet. Tuntutan selesai dan saya dapat {replacementOutcome}.",
-        "Saya dah terima {replacementOutcome} daripada claim Replacement Warranty {product}. Staf bantu terangkan urusan sepanjang semakan.",
-        "Ada semakan yang perlu dibuat untuk RW {product}. Selepas tuntutan selesai, saya dapat {replacementOutcome}.",
-        "Saya uruskan Replacement Warranty {product} dekat Bentong. Hasil gantian dah dijelaskan dan saya terima {replacementOutcome}.",
-        "{product} saya bermasalah selepas dibeli, jadi saya rujuk RW. Selepas selesai claim, saya dapat {replacementOutcome}.",
-        "Saya minta bantuan outlet untuk tuntutan RW {product}. Proses dah selesai dan {replacementOutcome} ialah gantian yang saya terima.",
-        "Maklumat tuntutan Replacement Warranty {product} disemak bersama staf. Selepas urusan selesai, saya dapat {replacementOutcome}.",
-        "Saya dah buat claim untuk {product} di bawah RW. Gantian yang diterima, {replacementOutcome}, diterangkan oleh staf sebelum urusan selesai.",
-        "Staf bantu saya faham urusan gantian bagi {product}. Selepas claim Replacement Warranty selesai, saya terima {replacementOutcome}.",
-        "Kes RW {product} saya dah selesai diuruskan. Saya dapat {replacementOutcome} dan dah semak maklumat gantian dengan staf."
+        "{product} rosak, saya ingat kena beli baru dah. Bawa datang kedai, staf check rupanya RW yang saya tambah dulu masih aktif. Claim diluluskan dan dapat {replacementOutcome}, lega tak perlu tanggung harga barang baru penuh.",
+        "Saya datang Bentong nak claim RW sebab {product} dah bermasalah. Staf semak rekod pembelian dan bantu urus sampai dapat {replacementOutcome}. Mujur masa beli dulu ada ambil Replacement Warranty.",
+        "Mula-mula cuma nak tanya tentang {product} yang rosak. Bila staf check, rupanya ada RW dan masih dalam tempoh perlindungan. Lepas claim selesai saya terima {replacementOutcome}, jimat daripada kena beli lain sendiri.",
+        "Memang pernah tambah RW masa beli {product}, jadi bila rosak terus rujuk kedai. Staf bantu semak kelayakan tuntutan dan saya dapat {replacementOutcome}. Baru terasa manfaat bayaran tambahan yang dibuat dulu.",
+        "Dah risau nak keluarkan duit untuk ganti {product} yang rosak. Nasib semak dengan Senheng dulu, RW masih ada. Selepas claim diluluskan saya dapat {replacementOutcome}, kurang satu benda nak pening fikir.",
+        "Saya terlupa {product} ni ada ambil Replacement Warranty. Bila rosak dan datang check, staf jumpa rekod RW yang masih aktif. Akhirnya dapat {replacementOutcome} lepas tuntutan selesai, memang lega.",
+        "Bawa {product} yang bermasalah ke kedai untuk tanya pilihan yang ada. Staf semak dan bantu claim bawah RW. Dapat {replacementOutcome}, syukur tak terus beli barang lain sebelum check.",
+        "Masa tambah RW dulu saya tak fikir akan guna pun. Bila {product} rosak, saya rujuk staf dan tuntutan layak diproses. Sekarang dah terima {replacementOutcome}, berbaloi juga ambil protection masa beli.",
+        "Saya datang dengan {product} yang rosak dan maklumat pembelian. Staf check RW masih aktif, kemudian bantu urus tuntutan. Dapat {replacementOutcome}, senang hati masalah barang tu dah selesai.",
+        "Ingat warranty {product} dah habis sebab dah lama beli. Staf semak rupanya RW masih dalam tempoh dan kerosakan layak claim. Saya terima {replacementOutcome}, mujur tak terus keluarkan duit beli ganti.",
+        "{product} tiba-tiba tak boleh guna macam biasa, jadi saya cari semula rekod RW. Datang kedai, staf bantu semak sampai claim selesai. Dapat {replacementOutcome}, lega ada perlindungan tambahan.",
+        "Saya tak biasa claim RW, jadi risau juga bila {product} rosak. Staf explain apa yang perlu disemak dan bantu urus. Bila akhirnya dapat {replacementOutcome}, rasa syukur dulu setuju tambah warranty tu.",
+        "Dah berkira nak beli lain untuk ganti {product}. Sebelum tu singgah Senheng, staf check rupanya RW saya masih aktif. Claim selesai dengan {replacementOutcome}, dapat elak tanggung pembelian baru sepenuhnya.",
+        "Bila {product} rosak, saya terus tanya staf pasal Replacement Warranty yang diambil. Rekod dan kerosakan disemak dulu, kemudian tuntutan diluluskan. Saya dapat {replacementOutcome}, puas hati perlindungan tu dapat digunakan.",
+        "Saya datang nak check {product} saja sebab dah bermasalah. Staf ingatkan ada RW dalam pembelian saya dan tempoh masih sah. Lepas urusan claim, dapat {replacementOutcome}; happy sebab tak perlu mula beli dari kosong.",
+        "Baru terasa guna RW bila {product} rosak. Saya bawa untuk semakan, staf sahkan tuntutan layak dan bantu sampai dapat {replacementOutcome}. Duit yang ingat nak guna beli barang ganti boleh dijimatkan.",
+        "Saya simpan rekod pembelian {product}, jadi bila rosak terus bawa rujuk staf. RW masih aktif dan claim diluluskan. Terima {replacementOutcome}, lega keputusan tambah RW dulu membantu kali ni.",
+        "{product} dah tak berfungsi elok, saya pun datang kedai dengan harapan masih boleh claim. Staf semak Replacement Warranty dan bantu urus tuntutan yang layak. Akhirnya dapat {replacementOutcome}, selesai juga masalah ni.",
+        "Dulu staf cadangkan tambah RW untuk {product}, saya ambil sekali. Bila barang rosak sekarang, saya datang semula dan rekod masih dalam perlindungan. Dapat {replacementOutcome} selepas claim selesai, nasib dengar penerangan dulu.",
+        "Saya ingat rosak {product} ni kena tanggung sendiri. Staf check pembelian dan bagitahu RW masih aktif, jadi boleh buat tuntutan untuk kerosakan tu. Lepas diluluskan saya terima {replacementOutcome}, rasa lega sangat.",
+        "Datang Bentong sebab {product} yang dibeli dah bermasalah. Staf bantu tengok rekod RW dan explain proses tuntutan sampai jelas. Hasilnya dapat {replacementOutcome}, tak perlu tanggung kos beli barang baru penuh.",
+        "Saya dah hampir putus asa dengan {product} yang rosak, tapi cuba tanya kedai dulu. Rupanya ada RW yang belum tamat dan kes layak claim. Lepas selesai dapat {replacementOutcome}, baik juga saya datang check.",
+        "Ada ambil Replacement Warranty masa beli {product}, jadi terus gunakan bila barang rosak. Staf semak tuntutan dan bantu dengan urusan gantian. Saya terima {replacementOutcome}, rasa berbaloi tambah RW sebelum ni.",
+        "Saya bawa {product} untuk tanya boleh baiki atau macam mana. Bila staf check rekod, rupanya masih ada RW. Claim diluluskan dan dapat {replacementOutcome}, lebih lega daripada kena fikir beli ganti sendiri.",
+        "Dah sediakan bajet kalau kena tukar {product} yang rosak. Mujur staf semak dan jumpa RW saya masih aktif. Selepas tuntutan selesai, saya terima {replacementOutcome}, dapat jimat belanja yang dirisaukan tadi.",
+        "Kali pertama guna RW untuk {product} yang bermasalah. Staf terangkan langkah semakan dan bantu urus claim yang layak. Dapat {replacementOutcome}, sekarang faham kenapa protection tambahan tu berguna.",
+        "Saya tak ingat sangat warranty yang diambil masa beli {product}. Bila rosak, terus minta staf check dan rupanya ada RW aktif. Tuntutan selesai dengan {replacementOutcome}, happy sebab ada jalan selain beli baru sendiri.",
+        "{product} rosak masa saya masih perlukan untuk kegunaan rumah. Staf semak RW dan bantu proses tuntutan sampai saya dapat {replacementOutcome}. Lega ada perlindungan yang boleh digunakan waktu macam ni.",
+        "Saya tanya pasal RW sebelum keluarkan duit untuk ganti {product}. Staf check tempoh masih sah dan kerosakan layak dituntut. Lepas claim selesai dapat {replacementOutcome}, memang membantu bajet saya.",
+        "Bawa {product} rosak datang kedai, staf terus bantu semak maklumat pembelian. Rupanya add-on RW yang saya ambil dulu masih melindungi barang tu. Saya terima {replacementOutcome} selepas tuntutan diluluskan.",
+        "Bukan selalu saya buat claim, jadi bila {product} rosak memang tak tahu nak mula mana. Staf bantu semak RW dan terangkan apa yang diperlukan. Urusan selesai, saya dapat {replacementOutcome} dan tak perlu tanggung pembelian baru sepenuhnya.",
+        "Saya datang untuk claim Replacement Warranty {product} yang dah rosak. Semua disemak dulu sebelum keputusan gantian dibuat. Dapat {replacementOutcome}, lega bayaran add-on dulu ada manfaatnya sekarang.",
+        "Dah ingat nak buang {product} sebab tak berfungsi, tapi cuba rujuk kedai dulu. Nasib baik masih ada RW dan tuntutan layak. Saya dapat {replacementOutcome} selepas urusan selesai, mujur check dulu.",
+        "Masa {product} mula bermasalah, saya cari rekod pembelian dan jumpa ada RW. Datang Senheng untuk semakan, kemudian claim diproses. Akhirnya terima {replacementOutcome}, rasa berbaloi simpan semua maklumat tu.",
+        "Saya tak sangka RW {product} masih aktif sebab tak ingat tarikh tamat. Staf tolong semak bila saya datang dengan barang rosak. Lepas claim diluluskan dapat {replacementOutcome}, lega dapat kurangkan belanja ganti barang.",
+        "{product} yang selalu dipakai rosak, jadi saya rujuk RW yang diambil masa beli. Staf bantu dari semakan hingga urusan gantian. Sekarang dapat {replacementOutcome}, selesai satu masalah dekat rumah.",
+        "Saya datang nak tanya kos untuk {product} yang rosak. Staf semak dulu dan bagitahu ada Replacement Warranty yang masih sah. Tuntutan saya diluluskan, dapat {replacementOutcome}; nasib tak terus beli barang lain.",
+        "Dulu tambah RW sebab staf explain perlindungan gantian. Bila {product} rosak, saya datang buat claim dan kerosakan disemak. Dapat {replacementOutcome}, memang terasa manfaat pilihan yang dibuat masa beli.",
+        "Saya risau {product} rosak ni akan ganggu bajet bulan ni. Bila staf check, RW masih aktif dan kes boleh dituntut. Lepas selesai dapat {replacementOutcome}, kuranglah beban nak ganti barang sendiri.",
+        "Minta staf semak {product} yang bermasalah, sekali rupanya ada RW dalam rekod pembelian. Saya pun teruskan tuntutan selepas diterangkan prosesnya. Hasil claim dapat {replacementOutcome}, syukur sempat datang check.",
+        "Saya bawa {product} rosak dan tanya sama ada RW boleh digunakan. Staf semak tempoh serta kerosakan dulu, kemudian bantu urus claim. Bila dapat {replacementOutcome}, lega tak perlu tanggung harga penuh barang ganti.",
+        "Sebelum ni tak pernah guna Replacement Warranty walaupun pernah tambah. Kali ni {product} rosak dan staf bantu semak kelayakan tuntutan saya. Dapat {replacementOutcome}, sekarang baru nampak kegunaan protection tu.",
+        "Saya ingat semua warranty {product} dah tamat. Rupanya bila staf semak, RW yang saya ambil masih aktif untuk kerosakan ni. Claim selesai dan saya terima {replacementOutcome}, memang berita baik untuk saya.",
+        "Datang semula ke Senheng sebab {product} dah tak boleh dipakai. Staf rujuk pembelian lama dan bantu claim bawah RW yang masih sah. Saya dapat {replacementOutcome}, lega masalah barang rosak dah ada penyelesaian.",
+        "Saya tak terus beli lain bila {product} rosak sebab teringat ada tambah RW. Staf check dan sahkan tuntutan layak, kemudian bantu urus gantian. Akhirnya dapat {replacementOutcome}, jimat juga keputusan tanya dulu.",
+        "{product} rosak, saya datang kedai nak tahu masih ada perlindungan ke tidak. Staf jumpa rekod RW yang aktif dan bantu buat tuntutan. Selepas diluluskan dapat {replacementOutcome}, lega sebab tak perlu tanggung semuanya sendiri.",
+        "Saya dah terima {replacementOutcome} untuk claim RW {product}. Awalnya barang rosak dan saya tak pasti masih cover, tapi staf bantu check sampai jelas. Nasib ada ambil add-on masa pembelian dulu.",
+        "Dah lama tak tengok rekod warranty {product}, jadi bila rosak saya minta staf bantu semak. RW rupanya masih sah dan tuntutan diterima. Dapat {replacementOutcome}, rasa happy sebab dapat jimat duit ganti barang.",
+        "Saya datang Bentong untuk urus {product} yang rosak bawah Replacement Warranty. Staf explain hasil semakan dan bantu sampai gantian selesai. Terima {replacementOutcome}, berbaloi juga ambil RW masa beli dulu.",
+        "Ingat kena keluarkan duit lagi bila {product} rosak. Lepas staf semak rekod, RW saya masih aktif dan kerosakan layak claim. Saya dapat {replacementOutcome}, lega sebab ada protection yang membantu waktu diperlukan."
       ],
       "base_comment_count": 50,
       "possible_combinations": 50
     }
-  }
+  },
+  "payment_methods": [
+    {
+      "id": "atome",
+      "label": "Atome"
+    },
+    {
+      "id": "spay",
+      "label": "SPayLater"
+    },
+    {
+      "id": "grab",
+      "label": "PayLater by Grab"
+    },
+    {
+      "id": "aeon",
+      "label": "AEON Credit"
+    },
+    {
+      "id": "chailease",
+      "label": "Chailease"
+    },
+    {
+      "id": "maxis",
+      "label": "Maxis phone bundle"
+    },
+    {
+      "id": "ipp",
+      "label": "0% IPP kad kredit"
+    }
+  ]
 }
